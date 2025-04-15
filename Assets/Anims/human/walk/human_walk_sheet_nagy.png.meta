@@ -1,0 +1,325 @@
+fileFormatVersion: 2
+guid: a64a1bd547160cb4192a4b61a2352114
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 603086364090613288
+    second: human_walk_sheet_nagy_0
+  - first:
+      213: -6541663325983120801
+    second: human_walk_sheet_nagy_1
+  - first:
+      213: 100995829285554413
+    second: human_walk_sheet_nagy_2
+  - first:
+      213: -4924946412542050117
+    second: human_walk_sheet_nagy_3
+  - first:
+      213: 905132683366697917
+    second: human_walk_sheet_nagy_4
+  - first:
+      213: 3840310539303568741
+    second: human_walk_sheet_nagy_5
+  - first:
+      213: -3075803053055153909
+    second: human_walk_sheet_nagy_6
+  - first:
+      213: 6327838887053611588
+    second: human_walk_sheet_nagy_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: human_walk_sheet_nagy_0
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 243
+        width: 414
+        height: 535
+      alignment: 9
+      pivot: {x: 0.62, y: 0.495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82eb0845ad79e5800800000000000000
+      internalID: 603086364090613288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_walk_sheet_nagy_1
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 243
+        width: 458
+        height: 513
+      alignment: 9
+      pivot: {x: 0.62, y: 0.505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52639e3dd75735a0800000000000000
+      internalID: -6541663325983120801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_walk_sheet_nagy_2
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 243
+        width: 458
+        height: 491
+      alignment: 9
+      pivot: {x: 0.62, y: 0.525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de88c50fb2fc66100800000000000000
+      internalID: 100995829285554413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_walk_sheet_nagy_3
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 243
+        width: 425
+        height: 513
+      alignment: 9
+      pivot: {x: 0.62, y: 0.505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb0c89ec45317abb0800000000000000
+      internalID: -4924946412542050117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_walk_sheet_nagy_4
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 243
+        width: 413
+        height: 535
+      alignment: 9
+      pivot: {x: 0.62, y: 0.49}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb0ba2416daf8c00800000000000000
+      internalID: 905132683366697917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_walk_sheet_nagy_5
+      rect:
+        serializedVersion: 2
+        x: 4649
+        y: 243
+        width: 458
+        height: 513
+      alignment: 9
+      pivot: {x: 0.62, y: 0.505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565c062b6168b4530800000000000000
+      internalID: 3840310539303568741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_walk_sheet_nagy_6
+      rect:
+        serializedVersion: 2
+        x: 5515
+        y: 243
+        width: 458
+        height: 491
+      alignment: 9
+      pivot: {x: 0.62, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b09e5976b6d8055d0800000000000000
+      internalID: -3075803053055153909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_walk_sheet_nagy_7
+      rect:
+        serializedVersion: 2
+        x: 6381
+        y: 243
+        width: 424
+        height: 513
+      alignment: 9
+      pivot: {x: 0.62, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442dbb201fff0d750800000000000000
+      internalID: 6327838887053611588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bf7cca149bb692e4a9f9c1751636e087
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      human_walk_sheet_nagy_0: 603086364090613288
+      human_walk_sheet_nagy_1: -6541663325983120801
+      human_walk_sheet_nagy_2: 100995829285554413
+      human_walk_sheet_nagy_3: -4924946412542050117
+      human_walk_sheet_nagy_4: 905132683366697917
+      human_walk_sheet_nagy_5: 3840310539303568741
+      human_walk_sheet_nagy_6: -3075803053055153909
+      human_walk_sheet_nagy_7: 6327838887053611588
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

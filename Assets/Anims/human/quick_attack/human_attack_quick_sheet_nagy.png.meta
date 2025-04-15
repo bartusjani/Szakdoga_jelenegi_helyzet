@@ -1,0 +1,469 @@
+fileFormatVersion: 2
+guid: 610e429778c748c4eab70b20994f7efe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4774420563632771983
+    second: human_attack_quick_sheet_nagy_0
+  - first:
+      213: 7637842818571697186
+    second: human_attack_quick_sheet_nagy_1
+  - first:
+      213: -4913380504590295029
+    second: human_attack_quick_sheet_nagy_2
+  - first:
+      213: -8969071237466366928
+    second: human_attack_quick_sheet_nagy_3
+  - first:
+      213: 1304858133870285397
+    second: human_attack_quick_sheet_nagy_4
+  - first:
+      213: 280923323056514869
+    second: human_attack_quick_sheet_nagy_5
+  - first:
+      213: 5347494135399812892
+    second: human_attack_quick_sheet_nagy_6
+  - first:
+      213: 6639557421749405807
+    second: human_attack_quick_sheet_nagy_7
+  - first:
+      213: -3139278858980154774
+    second: human_attack_quick_sheet_nagy_8
+  - first:
+      213: -157384012963424312
+    second: human_attack_quick_sheet_nagy_9
+  - first:
+      213: 863216185290149537
+    second: human_attack_quick_sheet_nagy_10
+  - first:
+      213: -8333681889309848570
+    second: human_attack_quick_sheet_nagy_11
+  - first:
+      213: 4020540047525080283
+    second: human_attack_quick_sheet_nagy_12
+  - first:
+      213: 3090518867003538797
+    second: human_attack_quick_sheet_nagy_13
+  - first:
+      213: -3018436705121753759
+    second: human_attack_quick_sheet_nagy_14
+  - first:
+      213: -5298654106145758373
+    second: human_attack_quick_sheet_nagy_15
+  - first:
+      213: 69974551237204473
+    second: human_attack_quick_sheet_nagy_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 230
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: human_attack_quick_sheet_nagy_0
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 290
+        width: 541
+        height: 672
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83d6a7e436224240800000000000000
+      internalID: 4774420563632771983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_attack_quick_sheet_nagy_1
+      rect:
+        serializedVersion: 2
+        x: 9340
+        y: 290
+        width: 512
+        height: 1036
+      alignment: 9
+      pivot: {x: 0.68, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22cfb3393911ff960800000000000000
+      internalID: 7637842818571697186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_attack_quick_sheet_nagy_2
+      rect:
+        serializedVersion: 2
+        x: 10446
+        y: 290
+        width: 512
+        height: 1065
+      alignment: 9
+      pivot: {x: 0.68, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b00e099967a20dbb0800000000000000
+      internalID: -4913380504590295029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_attack_quick_sheet_nagy_6
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 290
+        width: 614
+        height: 657
+      alignment: 9
+      pivot: {x: 0.35, y: 0.505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f8dfa759d163a40800000000000000
+      internalID: 5347494135399812892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_attack_quick_sheet_nagy_7
+      rect:
+        serializedVersion: 2
+        x: 2254
+        y: 290
+        width: 658
+        height: 643
+      alignment: 9
+      pivot: {x: 0.35, y: 0.518}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f688e251c42742c50800000000000000
+      internalID: 6639557421749405807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_attack_quick_sheet_nagy_8
+      rect:
+        serializedVersion: 2
+        x: 3489
+        y: 290
+        width: 978
+        height: 643
+      alignment: 9
+      pivot: {x: 0.37, y: 0.518}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a622897a28a0f64d0800000000000000
+      internalID: -3139278858980154774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_attack_quick_sheet_nagy_10
+      rect:
+        serializedVersion: 2
+        x: 15320
+        y: 290
+        width: 702
+        height: 628
+      alignment: 9
+      pivot: {x: 0.5, y: 0.54}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae46980c82cafb00800000000000000
+      internalID: 863216185290149537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_attack_quick_sheet_nagy_11
+      rect:
+        serializedVersion: 2
+        x: 4972
+        y: 290
+        width: 1225
+        height: 526
+      alignment: 9
+      pivot: {x: 0.27592316, y: 0.64}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c8494b970d85c80800000000000000
+      internalID: -8333681889309848570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_attack_quick_sheet_nagy_12
+      rect:
+        serializedVersion: 2
+        x: 6604
+        y: 290
+        width: 1022
+        height: 526
+      alignment: 9
+      pivot: {x: 0.29933265, y: 0.64}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdce6f91fd3dbc730800000000000000
+      internalID: 4020540047525080283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_attack_quick_sheet_nagy_13
+      rect:
+        serializedVersion: 2
+        x: 8074
+        y: 290
+        width: 847
+        height: 541
+      alignment: 9
+      pivot: {x: 0.269047, y: 0.63}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d7367098ab3ea20800000000000000
+      internalID: 3090518867003538797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_attack_quick_sheet_nagy_14
+      rect:
+        serializedVersion: 2
+        x: 11406
+        y: 294
+        width: 1051
+        height: 771
+      alignment: 9
+      pivot: {x: 0.35, y: 0.4386166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165a73e1fcb5c16d0800000000000000
+      internalID: -3018436705121753759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_attack_quick_sheet_nagy_15
+      rect:
+        serializedVersion: 2
+        x: 12905
+        y: 290
+        width: 890
+        height: 570
+      alignment: 9
+      pivot: {x: 0.4042837, y: 0.59}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b536487f9266776b0800000000000000
+      internalID: -5298654106145758373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_attack_quick_sheet_nagy_16
+      rect:
+        serializedVersion: 2
+        x: 14127
+        y: 290
+        width: 862
+        height: 555
+      alignment: 9
+      pivot: {x: 0.41581398, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f99fcdcb7998f000800000000000000
+      internalID: 69974551237204473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f9bb389ada04db6438f099ac42ecd82d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      human_attack_quick_sheet_nagy_0: 4774420563632771983
+      human_attack_quick_sheet_nagy_1: 7637842818571697186
+      human_attack_quick_sheet_nagy_10: 863216185290149537
+      human_attack_quick_sheet_nagy_11: -8333681889309848570
+      human_attack_quick_sheet_nagy_12: 4020540047525080283
+      human_attack_quick_sheet_nagy_13: 3090518867003538797
+      human_attack_quick_sheet_nagy_14: -3018436705121753759
+      human_attack_quick_sheet_nagy_15: -5298654106145758373
+      human_attack_quick_sheet_nagy_16: 69974551237204473
+      human_attack_quick_sheet_nagy_2: -4913380504590295029
+      human_attack_quick_sheet_nagy_3: -773487235
+      human_attack_quick_sheet_nagy_6: 5347494135399812892
+      human_attack_quick_sheet_nagy_7: 6639557421749405807
+      human_attack_quick_sheet_nagy_8: -3139278858980154774
+      human_attack_quick_sheet_nagy_9: -157384012963424312
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,476 @@
+fileFormatVersion: 2
+guid: 9f971341260ea104eb504b362a8f1708
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5043889914437613364
+    second: attack_single_quick_sheet_nagy_0
+  - first:
+      213: 2720932799954682573
+    second: attack_single_quick_sheet_nagy_1
+  - first:
+      213: 9202572107398556356
+    second: attack_single_quick_sheet_nagy_2
+  - first:
+      213: 2018156654563245973
+    second: attack_single_quick_sheet_nagy_3
+  - first:
+      213: -7545456932788966566
+    second: attack_single_quick_sheet_nagy_4
+  - first:
+      213: 1712874980806253337
+    second: attack_single_quick_sheet_nagy_5
+  - first:
+      213: 367996794839249359
+    second: attack_single_quick_sheet_nagy_6
+  - first:
+      213: -2478437133381070704
+    second: attack_single_quick_sheet_nagy_7
+  - first:
+      213: 2167421532229307745
+    second: attack_single_quick_sheet_nagy_8
+  - first:
+      213: -1599875742455860792
+    second: attack_single_quick_sheet_nagy_9
+  - first:
+      213: 6878082529170183549
+    second: attack_single_quick_sheet_nagy_10
+  - first:
+      213: -9045960400816786348
+    second: attack_single_quick_sheet_nagy_11
+  - first:
+      213: 9214333430834132540
+    second: attack_single_quick_sheet_nagy_12
+  - first:
+      213: 8834697024672796336
+    second: attack_single_quick_sheet_nagy_13
+  - first:
+      213: 4854938271818036028
+    second: attack_single_quick_sheet_nagy_14
+  - first:
+      213: -569572790528856496
+    second: attack_single_quick_sheet_nagy_15
+  - first:
+      213: -7512052834762447431
+    second: attack_single_quick_sheet_nagy_16
+  - first:
+      213: -8437664773499611624
+    second: attack_single_quick_sheet_nagy_17
+  - first:
+      213: -6618749438551136028
+    second: attack_single_quick_sheet_nagy_18
+  - first:
+      213: 4064754233533205204
+    second: attack_single_quick_sheet_nagy_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 15
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: attack_single_quick_sheet_nagy_0
+      rect:
+        serializedVersion: 2
+        x: 10502
+        y: 209
+        width: 661
+        height: 664
+      alignment: 9
+      pivot: {x: 0.29394087, y: 0.3707165}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 437ba3c472f7ff540800000000000000
+      internalID: 5043889914437613364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_single_quick_sheet_nagy_1
+      rect:
+        serializedVersion: 2
+        x: 11762
+        y: 209
+        width: 432
+        height: 664
+      alignment: 9
+      pivot: {x: 0.49, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc2020727f1b2c520800000000000000
+      internalID: 2720932799954682573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_single_quick_sheet_nagy_4
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 211
+        width: 233
+        height: 485
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5bea1da5e6294790800000000000000
+      internalID: -7545456932788966566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_single_quick_sheet_nagy_5
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 205
+        width: 270
+        height: 485
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b5c9748ba55c710800000000000000
+      internalID: 1712874980806253337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_single_quick_sheet_nagy_6
+      rect:
+        serializedVersion: 2
+        x: 2982
+        y: 211
+        width: 332
+        height: 475
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc130ea92236b1500800000000000000
+      internalID: 367996794839249359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_single_quick_sheet_nagy_7
+      rect:
+        serializedVersion: 2
+        x: 4084
+        y: 209
+        width: 475
+        height: 475
+      alignment: 9
+      pivot: {x: 0.68, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0901faafe82da9dd0800000000000000
+      internalID: -2478437133381070704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_single_quick_sheet_nagy_8
+      rect:
+        serializedVersion: 2
+        x: 5303
+        y: 209
+        width: 527
+        height: 475
+      alignment: 9
+      pivot: {x: 0.68, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d8f0b666a341e10800000000000000
+      internalID: 2167421532229307745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_single_quick_sheet_nagy_9
+      rect:
+        serializedVersion: 2
+        x: 6616
+        y: 209
+        width: 474
+        height: 475
+      alignment: 9
+      pivot: {x: 0.68, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c1772e1d791cc9e0800000000000000
+      internalID: -1599875742455860792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_single_quick_sheet_nagy_10
+      rect:
+        serializedVersion: 2
+        x: 7865
+        y: 209
+        width: 475
+        height: 464
+      alignment: 9
+      pivot: {x: 0.68, y: 0.53}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d75520f5e9bd37f50800000000000000
+      internalID: 6878082529170183549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_single_quick_sheet_nagy_11
+      rect:
+        serializedVersion: 2
+        x: 13075
+        y: 209
+        width: 340
+        height: 613
+      alignment: 9
+      pivot: {x: 0.5170295, y: 0.39611617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 454b01961fa467280800000000000000
+      internalID: -9045960400816786348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_single_quick_sheet_nagy_13
+      rect:
+        serializedVersion: 2
+        x: 14338
+        y: 206
+        width: 317
+        height: 464
+      alignment: 9
+      pivot: {x: 0.47, y: 0.54}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be82ddb2262b9a70800000000000000
+      internalID: 8834697024672796336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_single_quick_sheet_nagy_14
+      rect:
+        serializedVersion: 2
+        x: 15648
+        y: 209
+        width: 233
+        height: 485
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c33b92ab2a4306340800000000000000
+      internalID: 4854938271818036028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_single_quick_sheet_nagy_15
+      rect:
+        serializedVersion: 2
+        x: 8937
+        y: 209
+        width: 800
+        height: 443
+      alignment: 9
+      pivot: {x: 0.34354737, y: 0.58}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05eacc290987818f0800000000000000
+      internalID: -569572790528856496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0609a41837d41094091d1ccc088f63a7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      attack_single_quick_sheet_nagy_0: 5043889914437613364
+      attack_single_quick_sheet_nagy_1: 2720932799954682573
+      attack_single_quick_sheet_nagy_10: 6878082529170183549
+      attack_single_quick_sheet_nagy_11: -9045960400816786348
+      attack_single_quick_sheet_nagy_13: 8834697024672796336
+      attack_single_quick_sheet_nagy_14: 4854938271818036028
+      attack_single_quick_sheet_nagy_15: -569572790528856496
+      attack_single_quick_sheet_nagy_4: -7545456932788966566
+      attack_single_quick_sheet_nagy_5: 1712874980806253337
+      attack_single_quick_sheet_nagy_6: 367996794839249359
+      attack_single_quick_sheet_nagy_7: -2478437133381070704
+      attack_single_quick_sheet_nagy_8: 2167421532229307745
+      attack_single_quick_sheet_nagy_9: -1599875742455860792
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

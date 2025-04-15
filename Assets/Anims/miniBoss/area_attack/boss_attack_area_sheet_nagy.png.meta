@@ -1,0 +1,518 @@
+fileFormatVersion: 2
+guid: 24eb8550d48bd0348a5ae1fcbf9a01a8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5900574953289189918
+    second: boss_attack_area_sheet_nagy_0
+  - first:
+      213: -8909956241392008752
+    second: boss_attack_area_sheet_nagy_1
+  - first:
+      213: -513106510874863117
+    second: boss_attack_area_sheet_nagy_2
+  - first:
+      213: 2729063414062197994
+    second: boss_attack_area_sheet_nagy_3
+  - first:
+      213: -8906474518195932230
+    second: boss_attack_area_sheet_nagy_4
+  - first:
+      213: -2647250285547744720
+    second: boss_attack_area_sheet_nagy_5
+  - first:
+      213: 1650813572329783779
+    second: boss_attack_area_sheet_nagy_6
+  - first:
+      213: 2341560068955753173
+    second: boss_attack_area_sheet_nagy_7
+  - first:
+      213: 215787339285246119
+    second: boss_attack_area_sheet_nagy_8
+  - first:
+      213: -2846180526952452696
+    second: boss_attack_area_sheet_nagy_9
+  - first:
+      213: -5667423703090693395
+    second: boss_attack_area_sheet_nagy_10
+  - first:
+      213: 3771631205191239167
+    second: boss_attack_area_sheet_nagy_11
+  - first:
+      213: -3074914158288835717
+    second: boss_attack_area_sheet_nagy_12
+  - first:
+      213: 1865958514776921203
+    second: boss_attack_area_sheet_nagy_13
+  - first:
+      213: -3168095925313316983
+    second: boss_attack_area_sheet_nagy_14
+  - first:
+      213: 8146958660469271765
+    second: boss_attack_area_sheet_nagy_15
+  - first:
+      213: -5370723118531521412
+    second: boss_attack_area_sheet_nagy_16
+  - first:
+      213: 3269778526133133367
+    second: boss_attack_area_sheet_nagy_17
+  - first:
+      213: 9047505555211283920
+    second: boss_attack_area_sheet_nagy_18
+  - first:
+      213: 6670413792795788051
+    second: boss_attack_area_sheet_nagy_19
+  - first:
+      213: 4974809634620933264
+    second: boss_attack_area_sheet_nagy_20
+  - first:
+      213: -6182115598587673506
+    second: boss_attack_area_sheet_nagy_21
+  - first:
+      213: 3344235273085357154
+    second: boss_attack_area_sheet_nagy_22
+  - first:
+      213: -7744436221751453614
+    second: boss_attack_area_sheet_nagy_23
+  - first:
+      213: -8866143360676348810
+    second: boss_attack_area_sheet_nagy_24
+  - first:
+      213: -6652604263353309443
+    second: boss_attack_area_sheet_nagy_25
+  - first:
+      213: -881148843990037538
+    second: boss_attack_area_sheet_nagy_26
+  - first:
+      213: -8581124738058073601
+    second: boss_attack_area_sheet_nagy_27
+  - first:
+      213: -2223010798099872181
+    second: boss_attack_area_sheet_nagy_28
+  - first:
+      213: 5431612670528286017
+    second: boss_attack_area_sheet_nagy_29
+  - first:
+      213: -3791873410085109852
+    second: boss_attack_area_sheet_nagy_30
+  - first:
+      213: 3979909992706635659
+    second: boss_attack_area_sheet_nagy_31
+  - first:
+      213: 5307741298800085119
+    second: boss_attack_area_sheet_nagy_32
+  - first:
+      213: 5477360029579493792
+    second: boss_attack_area_sheet_nagy_33
+  - first:
+      213: 1781812980770223366
+    second: boss_attack_area_sheet_nagy_34
+  - first:
+      213: -8166825891199347395
+    second: boss_attack_area_sheet_nagy_35
+  - first:
+      213: 372180892789414306
+    second: boss_attack_area_sheet_nagy_36
+  - first:
+      213: 7939717374868038228
+    second: boss_attack_area_sheet_nagy_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 17
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boss_attack_area_sheet_nagy_0
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 32
+        width: 900
+        height: 392
+      alignment: 9
+      pivot: {x: 0.5, y: 0.528}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a8e5d48ad03e150800000000000000
+      internalID: 5900574953289189918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_attack_area_sheet_nagy_1
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 34
+        width: 917
+        height: 404
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d10e83610a795480800000000000000
+      internalID: -8909956241392008752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_attack_area_sheet_nagy_2
+      rect:
+        serializedVersion: 2
+        x: 2295
+        y: 32
+        width: 905
+        height: 421
+      alignment: 9
+      pivot: {x: 0.5, y: 0.495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f91d5fc85411e8f0800000000000000
+      internalID: -513106510874863117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_attack_area_sheet_nagy_3
+      rect:
+        serializedVersion: 2
+        x: 3457
+        y: 32
+        width: 951
+        height: 426
+      alignment: 9
+      pivot: {x: 0.46728593, y: 0.49478343}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec21b447b49fd520800000000000000
+      internalID: 2729063414062197994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_attack_area_sheet_nagy_4
+      rect:
+        serializedVersion: 2
+        x: 4614
+        y: 32
+        width: 979
+        height: 432
+      alignment: 9
+      pivot: {x: 0.4591415, y: 0.48199576}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab3fcdd3d98d56480800000000000000
+      internalID: -8906474518195932230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_attack_area_sheet_nagy_5
+      rect:
+        serializedVersion: 2
+        x: 5794
+        y: 36
+        width: 1041
+        height: 426
+      alignment: 9
+      pivot: {x: 0.4775855, y: 0.495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 032106a14e3134bd0800000000000000
+      internalID: -2647250285547744720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_attack_area_sheet_nagy_6
+      rect:
+        serializedVersion: 2
+        x: 7045
+        y: 32
+        width: 1092
+        height: 426
+      alignment: 9
+      pivot: {x: 0.41147667, y: 0.495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e14c19923ed8e610800000000000000
+      internalID: 1650813572329783779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_attack_area_sheet_nagy_7
+      rect:
+        serializedVersion: 2
+        x: 8450
+        y: 32
+        width: 1188
+        height: 432
+      alignment: 9
+      pivot: {x: 0.38870147, y: 0.495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dac8520a74ee7020800000000000000
+      internalID: 2341560068955753173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_attack_area_sheet_nagy_8
+      rect:
+        serializedVersion: 2
+        x: 10058
+        y: 32
+        width: 1154
+        height: 426
+      alignment: 9
+      pivot: {x: 0.38927355, y: 0.49739185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a0bf191171aef200800000000000000
+      internalID: 215787339285246119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_attack_area_sheet_nagy_9
+      rect:
+        serializedVersion: 2
+        x: 11564
+        y: 27
+        width: 1155
+        height: 437
+      alignment: 9
+      pivot: {x: 0.39610305, y: 0.4923722}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad6d54f3e55088d0800000000000000
+      internalID: -2846180526952452696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_attack_area_sheet_nagy_12
+      rect:
+        serializedVersion: 2
+        x: 12986
+        y: 32
+        width: 1103
+        height: 426
+      alignment: 9
+      pivot: {x: 0.45, y: 0.48435053}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7bef585dd5b355d0800000000000000
+      internalID: -3074914158288835717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_attack_area_sheet_nagy_14
+      rect:
+        serializedVersion: 2
+        x: 14323
+        y: 32
+        width: 968
+        height: 426
+      alignment: 9
+      pivot: {x: 0.4517903, y: 0.5026083}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 987565d8a89a804d0800000000000000
+      internalID: -3168095925313316983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_attack_area_sheet_nagy_15
+      rect:
+        serializedVersion: 2
+        x: 15428
+        y: 32
+        width: 928
+        height: 421
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc201dbcbfcf0170800000000000000
+      internalID: 8146958660469271765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 942757ff36bcca541beb251595e7f60e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      boss_attack_area_sheet_nagy_38: 1364846163
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

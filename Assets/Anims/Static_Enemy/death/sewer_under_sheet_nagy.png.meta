@@ -1,0 +1,487 @@
+fileFormatVersion: 2
+guid: f8582cfe4cb63db4bb854d315069b166
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6963085987412777825
+    second: sewer_under_sheet_nagy_0
+  - first:
+      213: -3369428102091055083
+    second: sewer_under_sheet_nagy_1
+  - first:
+      213: -6744710021338807451
+    second: sewer_under_sheet_nagy_2
+  - first:
+      213: 6729153317846350153
+    second: sewer_under_sheet_nagy_3
+  - first:
+      213: -1012528268297922398
+    second: sewer_under_sheet_nagy_4
+  - first:
+      213: 8957611114013707012
+    second: sewer_under_sheet_nagy_5
+  - first:
+      213: -5697227418130537425
+    second: sewer_under_sheet_nagy_6
+  - first:
+      213: 2986804081464747979
+    second: sewer_under_sheet_nagy_7
+  - first:
+      213: -5715487545586510993
+    second: sewer_under_sheet_nagy_8
+  - first:
+      213: -5532799036413235523
+    second: sewer_under_sheet_nagy_9
+  - first:
+      213: 2770868140658002762
+    second: sewer_under_sheet_nagy_10
+  - first:
+      213: -3926654256726868533
+    second: sewer_under_sheet_nagy_11
+  - first:
+      213: 6222981034504146983
+    second: sewer_under_sheet_nagy_12
+  - first:
+      213: -2436190955947298658
+    second: sewer_under_sheet_nagy_13
+  - first:
+      213: 7807577288742215101
+    second: sewer_under_sheet_nagy_14
+  - first:
+      213: 4647385743012155891
+    second: sewer_under_sheet_nagy_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 10
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sewer_under_sheet_nagy_0
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 85
+        width: 1049
+        height: 655
+      alignment: 9
+      pivot: {x: 0.49679166, y: 0.014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f94e2cbbf262e5f90800000000000000
+      internalID: -6963085987412777825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_under_sheet_nagy_1
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 85
+        width: 1061
+        height: 705
+      alignment: 9
+      pivot: {x: 0.5022482, y: 0.014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 510e4ae3ef26d31d0800000000000000
+      internalID: -3369428102091055083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_under_sheet_nagy_2
+      rect:
+        serializedVersion: 2
+        x: 2716
+        y: 85
+        width: 1062
+        height: 766
+      alignment: 9
+      pivot: {x: 0.502246, y: 0.014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563451978f9f562a0800000000000000
+      internalID: -6744710021338807451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_under_sheet_nagy_3
+      rect:
+        serializedVersion: 2
+        x: 3953
+        y: 85
+        width: 1099
+        height: 766
+      alignment: 9
+      pivot: {x: 0.508682, y: 0.014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9497f5d3a41c26d50800000000000000
+      internalID: 6729153317846350153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_under_sheet_nagy_4
+      rect:
+        serializedVersion: 2
+        x: 5222
+        y: 85
+        width: 1123
+        height: 840
+      alignment: 9
+      pivot: {x: 0.50849646, y: 0.014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a89f0397e6c2f1f0800000000000000
+      internalID: -1012528268297922398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_under_sheet_nagy_5
+      rect:
+        serializedVersion: 2
+        x: 6516
+        y: 85
+        width: 1197
+        height: 865
+      alignment: 9
+      pivot: {x: 0.50996387, y: 0.014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40bc0e649d3df4c70800000000000000
+      internalID: 8957611114013707012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_under_sheet_nagy_6
+      rect:
+        serializedVersion: 2
+        x: 7883
+        y: 85
+        width: 1160
+        height: 865
+      alignment: 9
+      pivot: {x: 0.5123375, y: 0.014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f24a6b139d16fe0b0800000000000000
+      internalID: -5697227418130537425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_under_sheet_nagy_7
+      rect:
+        serializedVersion: 2
+        x: 9213
+        y: 85
+        width: 1173
+        height: 865
+      alignment: 9
+      pivot: {x: 0.5101677, y: 0.014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7a461cc72437920800000000000000
+      internalID: 2986804081464747979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_under_sheet_nagy_8
+      rect:
+        serializedVersion: 2
+        x: 10556
+        y: 85
+        width: 901
+        height: 890
+      alignment: 9
+      pivot: {x: 0.5026468, y: 0.014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f639527fb528ea0b0800000000000000
+      internalID: -5715487545586510993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_under_sheet_nagy_9
+      rect:
+        serializedVersion: 2
+        x: 11628
+        y: 87
+        width: 877
+        height: 890
+      alignment: 9
+      pivot: {x: 0.4999989, y: 0.014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe27f4279c8733b0800000000000000
+      internalID: -5532799036413235523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_under_sheet_nagy_10
+      rect:
+        serializedVersion: 2
+        x: 12860
+        y: 87
+        width: 864
+        height: 890
+      alignment: 9
+      pivot: {x: 0.5055214, y: 0.014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b0e5ba4e9147620800000000000000
+      internalID: 2770868140658002762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_under_sheet_nagy_11
+      rect:
+        serializedVersion: 2
+        x: 14084
+        y: 90
+        width: 692
+        height: 890
+      alignment: 9
+      pivot: {x: 0.45, y: 0.014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcdf40002c8b189c0800000000000000
+      internalID: -3926654256726868533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_under_sheet_nagy_13
+      rect:
+        serializedVersion: 2
+        x: 15225
+        y: 85
+        width: 335
+        height: 655
+      alignment: 9
+      pivot: {x: 0.01, y: 0.014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e90fdb9ab39e03ed0800000000000000
+      internalID: -2436190955947298658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_under_sheet_nagy_15
+      rect:
+        serializedVersion: 2
+        x: 15772
+        y: 85
+        width: 478
+        height: 273
+      alignment: 9
+      pivot: {x: 0.25, y: 0.014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1547ad5b4de7040800000000000000
+      internalID: 4647385743012155891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 972a6cc54860cf24791630cc1748a1f4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sewer_under_sheet_nagy_0: -6963085987412777825
+      sewer_under_sheet_nagy_1: -3369428102091055083
+      sewer_under_sheet_nagy_10: 2770868140658002762
+      sewer_under_sheet_nagy_11: -3926654256726868533
+      sewer_under_sheet_nagy_13: -2436190955947298658
+      sewer_under_sheet_nagy_15: 4647385743012155891
+      sewer_under_sheet_nagy_2: -6744710021338807451
+      sewer_under_sheet_nagy_3: 6729153317846350153
+      sewer_under_sheet_nagy_4: -1012528268297922398
+      sewer_under_sheet_nagy_5: 8957611114013707012
+      sewer_under_sheet_nagy_6: -5697227418130537425
+      sewer_under_sheet_nagy_7: 2986804081464747979
+      sewer_under_sheet_nagy_8: -5715487545586510993
+      sewer_under_sheet_nagy_9: -5532799036413235523
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

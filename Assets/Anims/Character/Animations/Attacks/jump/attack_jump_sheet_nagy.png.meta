@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: ada4ad739aaf3cd4f9d99a94760a2695
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2626949236467154224
+    second: attack_jump_sheet_nagy_0
+  - first:
+      213: -8830002411145092448
+    second: attack_jump_sheet_nagy_1
+  - first:
+      213: -8786229453640603379
+    second: attack_jump_sheet_nagy_2
+  - first:
+      213: 5293610123718677597
+    second: attack_jump_sheet_nagy_3
+  - first:
+      213: -975804700906082314
+    second: attack_jump_sheet_nagy_4
+  - first:
+      213: -6932218591671314263
+    second: attack_jump_sheet_nagy_5
+  - first:
+      213: -7694351024086860128
+    second: attack_jump_sheet_nagy_6
+  - first:
+      213: 1677000988664262319
+    second: attack_jump_sheet_nagy_7
+  - first:
+      213: 7385375354632900411
+    second: attack_jump_sheet_nagy_8
+  - first:
+      213: 3543754362957802165
+    second: attack_jump_sheet_nagy_9
+  - first:
+      213: 147174652597765905
+    second: attack_jump_sheet_nagy_10
+  - first:
+      213: 6632211755422357472
+    second: attack_jump_sheet_nagy_11
+  - first:
+      213: 5154930743447314014
+    second: attack_jump_sheet_nagy_12
+  - first:
+      213: -144245260142984855
+    second: attack_jump_sheet_nagy_13
+  - first:
+      213: -3925349937008715356
+    second: attack_jump_sheet_nagy_14
+  - first:
+      213: 3784024650422196154
+    second: attack_jump_sheet_nagy_15
+  - first:
+      213: -2227765433985522423
+    second: attack_jump_sheet_nagy_16
+  - first:
+      213: 5136848986572862068
+    second: attack_jump_sheet_nagy_17
+  - first:
+      213: 2684668185943756894
+    second: attack_jump_sheet_nagy_18
+  - first:
+      213: -698546001519674685
+    second: attack_jump_sheet_nagy_19
+  - first:
+      213: -974429157034304951
+    second: attack_jump_sheet_nagy_20
+  - first:
+      213: 7329238266432880931
+    second: attack_jump_sheet_nagy_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 15
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: attack_jump_sheet_nagy_3
+      rect:
+        serializedVersion: 2
+        x: 8073
+        y: 503
+        width: 409
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d54d9ab5c5ea67940800000000000000
+      internalID: 5293610123718677597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_jump_sheet_nagy_5
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 118
+        width: 238
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8921a5befcbcf90800000000000000
+      internalID: -6932218591671314263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_jump_sheet_nagy_6
+      rect:
+        serializedVersion: 2
+        x: 2644
+        y: 118
+        width: 302
+        height: 453
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aeb320928c283590800000000000000
+      internalID: -7694351024086860128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_jump_sheet_nagy_7
+      rect:
+        serializedVersion: 2
+        x: 4497
+        y: 215
+        width: 248
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faeef499387e54710800000000000000
+      internalID: 1677000988664262319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_jump_sheet_nagy_8
+      rect:
+        serializedVersion: 2
+        x: 6296
+        y: 451
+        width: 334
+        height: 419
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3f81d171cf1e7660800000000000000
+      internalID: 7385375354632900411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_jump_sheet_nagy_9
+      rect:
+        serializedVersion: 2
+        x: 9947
+        y: 237
+        width: 313
+        height: 633
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba275741d1fd2130800000000000000
+      internalID: 3543754362957802165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_jump_sheet_nagy_10
+      rect:
+        serializedVersion: 2
+        x: 11746
+        y: 118
+        width: 655
+        height: 688
+      alignment: 9
+      pivot: {x: 0.28720927, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1170808119eda0200800000000000000
+      internalID: 147174652597765905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_jump_sheet_nagy_11
+      rect:
+        serializedVersion: 2
+        x: 13567
+        y: 118
+        width: 633
+        height: 410
+      alignment: 9
+      pivot: {x: 0.29140133, y: 0.59}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e79e1dd3795a0c50800000000000000
+      internalID: 6632211755422357472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_jump_sheet_nagy_12
+      rect:
+        serializedVersion: 2
+        x: 15366
+        y: 118
+        width: 497
+        height: 453
+      alignment: 9
+      pivot: {x: 0.3966789, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5edaecf23ef98740800000000000000
+      internalID: 5154930743447314014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 757fa3312f5da1d4c9d99f2fd02fb0e9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      attack_jump_sheet_nagy_10: 147174652597765905
+      attack_jump_sheet_nagy_11: 6632211755422357472
+      attack_jump_sheet_nagy_12: 5154930743447314014
+      attack_jump_sheet_nagy_3: 5293610123718677597
+      attack_jump_sheet_nagy_5: -6932218591671314263
+      attack_jump_sheet_nagy_6: -7694351024086860128
+      attack_jump_sheet_nagy_7: 1677000988664262319
+      attack_jump_sheet_nagy_8: 7385375354632900411
+      attack_jump_sheet_nagy_9: 3543754362957802165
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

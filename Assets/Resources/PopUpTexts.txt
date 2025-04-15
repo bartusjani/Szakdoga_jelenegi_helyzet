@@ -1,0 +1,8 @@
+Need Magic to Open.
+Press E to charge Crystal.
+New Diary Note. Press I to see Diary in Inventory.
+Need another Route.
+New Diary Note. Press I to see Diary in Inventory.
+Need another Route. Entrance is blocked from outside.
+Can't go further you will die without directions.
+Can't go through the tower, find another way up.

@@ -1,0 +1,363 @@
+fileFormatVersion: 2
+guid: 2842afe42d825d14e9a9ba88e32913ce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5928477265854420386
+    second: sewer_attack_frireball_sheet_nagy_0
+  - first:
+      213: -120022498560700238
+    second: sewer_attack_frireball_sheet_nagy_1
+  - first:
+      213: -8492699646661343194
+    second: sewer_attack_frireball_sheet_nagy_2
+  - first:
+      213: 5268380094297533314
+    second: sewer_attack_frireball_sheet_nagy_3
+  - first:
+      213: -8483809907095754739
+    second: sewer_attack_frireball_sheet_nagy_4
+  - first:
+      213: 4354602683888592628
+    second: sewer_attack_frireball_sheet_nagy_5
+  - first:
+      213: 4992003289025777926
+    second: sewer_attack_frireball_sheet_nagy_6
+  - first:
+      213: -440456745264869080
+    second: sewer_attack_frireball_sheet_nagy_7
+  - first:
+      213: -1788340620219157513
+    second: sewer_attack_frireball_sheet_nagy_8
+  - first:
+      213: 1705889105151296564
+    second: sewer_attack_frireball_sheet_nagy_9
+  - first:
+      213: -4759824925879994796
+    second: sewer_attack_frireball_sheet_nagy_10
+  - first:
+      213: -1337062351616678690
+    second: sewer_attack_frireball_sheet_nagy_11
+  - first:
+      213: -6739955607701128054
+    second: sewer_attack_frireball_sheet_nagy_12
+  - first:
+      213: 5526442532706015335
+    second: sewer_attack_frireball_sheet_nagy_13
+  - first:
+      213: 7160201250364162694
+    second: sewer_attack_frireball_sheet_nagy_14
+  - first:
+      213: 3169808275484522206
+    second: sewer_attack_frireball_sheet_nagy_15
+  - first:
+      213: -6660487560656150820
+    second: sewer_attack_frireball_sheet_nagy_16
+  - first:
+      213: 4033094057543778014
+    second: sewer_attack_frireball_sheet_nagy_17
+  - first:
+      213: 242164555375169522
+    second: sewer_attack_frireball_sheet_nagy_18
+  - first:
+      213: 4690649092191844850
+    second: sewer_attack_frireball_sheet_nagy_19
+  - first:
+      213: 2175615798171383623
+    second: sewer_attack_frireball_sheet_nagy_20
+  - first:
+      213: -334586232029875991
+    second: sewer_attack_frireball_sheet_nagy_21
+  - first:
+      213: -5275316176147313511
+    second: sewer_attack_frireball_sheet_nagy_22
+  - first:
+      213: 9068926921809245297
+    second: sewer_attack_frireball_sheet_nagy_23
+  - first:
+      213: 5557125302822746190
+    second: sewer_attack_frireball_sheet_nagy_24
+  - first:
+      213: 6497594810461442579
+    second: sewer_attack_frireball_sheet_nagy_25
+  - first:
+      213: -6847653720430031609
+    second: sewer_attack_frireball_sheet_nagy_26
+  - first:
+      213: -1532164810969645597
+    second: sewer_attack_frireball_sheet_nagy_27
+  - first:
+      213: 7046849148213884519
+    second: sewer_attack_frireball_sheet_nagy_28
+  - first:
+      213: -8542095961562436380
+    second: sewer_attack_frireball_sheet_nagy_29
+  - first:
+      213: -1432535905428720310
+    second: sewer_attack_frireball_sheet_nagy_30
+  - first:
+      213: -2858676209641422243
+    second: sewer_attack_frireball_sheet_nagy_31
+  - first:
+      213: -4136329255739836066
+    second: sewer_attack_frireball_sheet_nagy_32
+  - first:
+      213: -7170763466266610864
+    second: sewer_attack_frireball_sheet_nagy_33
+  - first:
+      213: -3274613626284610783
+    second: sewer_attack_frireball_sheet_nagy_34
+  - first:
+      213: 376290425085952932
+    second: sewer_attack_frireball_sheet_nagy_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sewer_attack_frireball_sheet_nagy_6
+      rect:
+        serializedVersion: 2
+        x: 12208
+        y: 1178
+        width: 837
+        height: 688
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60196f7ea88274540800000000000000
+      internalID: 4992003289025777926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_attack_frireball_sheet_nagy_8
+      rect:
+        serializedVersion: 2
+        x: 14533
+        y: 995
+        width: 699
+        height: 1111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f37f625ea98e27e0800000000000000
+      internalID: -1788340620219157513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_attack_frireball_sheet_nagy_10
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 1364
+        width: 1369
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4567fd3d274b1fdb0800000000000000
+      internalID: -4759824925879994796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_attack_frireball_sheet_nagy_11
+      rect:
+        serializedVersion: 2
+        x: 4059
+        y: 1364
+        width: 1669
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4e65110ecc17de0800000000000000
+      internalID: -1337062351616678690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_attack_frireball_sheet_nagy_13
+      rect:
+        serializedVersion: 2
+        x: 6781
+        y: 1364
+        width: 1677
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7685d81043ed1bc40800000000000000
+      internalID: 5526442532706015335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_attack_frireball_sheet_nagy_14
+      rect:
+        serializedVersion: 2
+        x: 9670
+        y: 1364
+        width: 1292
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6828340d9152e5360800000000000000
+      internalID: 7160201250364162694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 56d7ef8f6ce158a4c850b23e41ee1c00
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sewer_attack_frireball_sheet_nagy_10: -4759824925879994796
+      sewer_attack_frireball_sheet_nagy_11: -1337062351616678690
+      sewer_attack_frireball_sheet_nagy_13: 5526442532706015335
+      sewer_attack_frireball_sheet_nagy_14: 7160201250364162694
+      sewer_attack_frireball_sheet_nagy_6: 4992003289025777926
+      sewer_attack_frireball_sheet_nagy_8: -1788340620219157513
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

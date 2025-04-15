@@ -1,0 +1,441 @@
+fileFormatVersion: 2
+guid: d2d65df6de548d847a80628b7150994d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1358210216408024506
+    second: corridor_attack_strong_sheet_nagy_0
+  - first:
+      213: 9125128992731660329
+    second: corridor_attack_strong_sheet_nagy_1
+  - first:
+      213: 8355231862288146420
+    second: corridor_attack_strong_sheet_nagy_2
+  - first:
+      213: 2150925389503622204
+    second: corridor_attack_strong_sheet_nagy_3
+  - first:
+      213: 8119986158548989612
+    second: corridor_attack_strong_sheet_nagy_4
+  - first:
+      213: 8954078941527888973
+    second: corridor_attack_strong_sheet_nagy_5
+  - first:
+      213: -3577536169473076322
+    second: corridor_attack_strong_sheet_nagy_6
+  - first:
+      213: 7474328687138460644
+    second: corridor_attack_strong_sheet_nagy_7
+  - first:
+      213: 2937251043748930019
+    second: corridor_attack_strong_sheet_nagy_8
+  - first:
+      213: 6756631653752423796
+    second: corridor_attack_strong_sheet_nagy_9
+  - first:
+      213: 7142800184625015491
+    second: corridor_attack_strong_sheet_nagy_10
+  - first:
+      213: -2612858603993820441
+    second: corridor_attack_strong_sheet_nagy_11
+  - first:
+      213: -4384603635553110255
+    second: corridor_attack_strong_sheet_nagy_12
+  - first:
+      213: 5162838283264662718
+    second: corridor_attack_strong_sheet_nagy_13
+  - first:
+      213: -5337962495119329141
+    second: corridor_attack_strong_sheet_nagy_14
+  - first:
+      213: -107455656492002533
+    second: corridor_attack_strong_sheet_nagy_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 10
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: corridor_attack_strong_sheet_nagy_0
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 16
+        width: 663
+        height: 417
+      alignment: 9
+      pivot: {x: 0.5, y: 0.495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64a71b8110ba62de0800000000000000
+      internalID: -1358210216408024506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corridor_attack_strong_sheet_nagy_1
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 16
+        width: 679
+        height: 434
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 920836dc878f2ae70800000000000000
+      internalID: 9125128992731660329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corridor_attack_strong_sheet_nagy_2
+      rect:
+        serializedVersion: 2
+        x: 3082
+        y: 16
+        width: 679
+        height: 451
+      alignment: 9
+      pivot: {x: 0.5, y: 0.455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ffd5bf5c1fb3f370800000000000000
+      internalID: 8355231862288146420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corridor_attack_strong_sheet_nagy_3
+      rect:
+        serializedVersion: 2
+        x: 4448
+        y: 16
+        width: 684
+        height: 451
+      alignment: 9
+      pivot: {x: 0.5, y: 0.455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c6bb3ee3f99dd10800000000000000
+      internalID: 2150925389503622204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corridor_attack_strong_sheet_nagy_4
+      rect:
+        serializedVersion: 2
+        x: 5813
+        y: 16
+        width: 679
+        height: 457
+      alignment: 9
+      pivot: {x: 0.5, y: 0.445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca6b661c36cffa070800000000000000
+      internalID: 8119986158548989612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corridor_attack_strong_sheet_nagy_5
+      rect:
+        serializedVersion: 2
+        x: 7178
+        y: 16
+        width: 685
+        height: 457
+      alignment: 9
+      pivot: {x: 0.5, y: 0.445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4453984b57434c70800000000000000
+      internalID: 8954078941527888973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corridor_attack_strong_sheet_nagy_6
+      rect:
+        serializedVersion: 2
+        x: 8544
+        y: 16
+        width: 679
+        height: 457
+      alignment: 9
+      pivot: {x: 0.5, y: 0.445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e931277fec90a5ec0800000000000000
+      internalID: -3577536169473076322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corridor_attack_strong_sheet_nagy_7
+      rect:
+        serializedVersion: 2
+        x: 9989
+        y: 16
+        width: 684
+        height: 457
+      alignment: 9
+      pivot: {x: 0.5, y: 0.445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e3566b17562ab760800000000000000
+      internalID: 7474328687138460644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corridor_attack_strong_sheet_nagy_8
+      rect:
+        serializedVersion: 2
+        x: 11274
+        y: 16
+        width: 679
+        height: 434
+      alignment: 9
+      pivot: {x: 0.5, y: 0.465}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1ecc6134633c820800000000000000
+      internalID: 2937251043748930019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corridor_attack_strong_sheet_nagy_9
+      rect:
+        serializedVersion: 2
+        x: 12640
+        y: 16
+        width: 746
+        height: 366
+      alignment: 9
+      pivot: {x: 0.5, y: 0.555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475c210e0b064cd50800000000000000
+      internalID: 6756631653752423796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corridor_attack_strong_sheet_nagy_11
+      rect:
+        serializedVersion: 2
+        x: 14005
+        y: 16
+        width: 719
+        height: 349
+      alignment: 9
+      pivot: {x: 0.5, y: 0.585}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e210a471f24dbbd0800000000000000
+      internalID: -2612858603993820441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corridor_attack_strong_sheet_nagy_12
+      rect:
+        serializedVersion: 2
+        x: 15366
+        y: 16
+        width: 663
+        height: 360
+      alignment: 9
+      pivot: {x: 0.5, y: 0.555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11778fd5932c623c0800000000000000
+      internalID: -4384603635553110255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 41312f8a4c6c70a4b93bab4699c2062b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      corridor_attack_strong_sheet_nagy_0: -1358210216408024506
+      corridor_attack_strong_sheet_nagy_1: 9125128992731660329
+      corridor_attack_strong_sheet_nagy_11: -2612858603993820441
+      corridor_attack_strong_sheet_nagy_12: -4384603635553110255
+      corridor_attack_strong_sheet_nagy_2: 8355231862288146420
+      corridor_attack_strong_sheet_nagy_3: 2150925389503622204
+      corridor_attack_strong_sheet_nagy_4: 8119986158548989612
+      corridor_attack_strong_sheet_nagy_5: 8954078941527888973
+      corridor_attack_strong_sheet_nagy_6: -3577536169473076322
+      corridor_attack_strong_sheet_nagy_7: 7474328687138460644
+      corridor_attack_strong_sheet_nagy_8: 2937251043748930019
+      corridor_attack_strong_sheet_nagy_9: 6756631653752423796
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

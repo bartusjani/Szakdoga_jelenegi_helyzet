@@ -1,0 +1,759 @@
+fileFormatVersion: 2
+guid: 49d87f09fae923b4c8b471e4c4805c77
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2081115536850351424
+    second: block_sheet_nagy_0
+  - first:
+      213: 7806288814739643537
+    second: block_sheet_nagy_1
+  - first:
+      213: -3254609970694743807
+    second: block_sheet_nagy_2
+  - first:
+      213: 3933994575874935063
+    second: block_sheet_nagy_3
+  - first:
+      213: -3651325715727163508
+    second: block_sheet_nagy_4
+  - first:
+      213: -5216015053294689608
+    second: block_sheet_nagy_5
+  - first:
+      213: 5031884655533498942
+    second: block_sheet_nagy_6
+  - first:
+      213: 8361597925109088408
+    second: block_sheet_nagy_7
+  - first:
+      213: 1597717379962233844
+    second: block_sheet_nagy_8
+  - first:
+      213: 2102607882602734777
+    second: block_sheet_nagy_9
+  - first:
+      213: -7527790821206340659
+    second: block_sheet_nagy_10
+  - first:
+      213: 336822105424030029
+    second: block_sheet_nagy_11
+  - first:
+      213: 6355230769918560615
+    second: block_sheet_nagy_12
+  - first:
+      213: 419951202962507800
+    second: block_sheet_nagy_13
+  - first:
+      213: 8339202738517948308
+    second: block_sheet_nagy_14
+  - first:
+      213: -4261577287672314573
+    second: block_sheet_nagy_15
+  - first:
+      213: 672421451221684147
+    second: block_sheet_nagy_16
+  - first:
+      213: 9159178704261123677
+    second: block_sheet_nagy_17
+  - first:
+      213: 2883853077966917137
+    second: block_sheet_nagy_18
+  - first:
+      213: 7109327421389591314
+    second: block_sheet_nagy_19
+  - first:
+      213: -7566105948490485630
+    second: block_sheet_nagy_20
+  - first:
+      213: 6492412980949081568
+    second: block_sheet_nagy_21
+  - first:
+      213: -4957183618436624213
+    second: block_sheet_nagy_22
+  - first:
+      213: 6770281368043200814
+    second: block_sheet_nagy_23
+  - first:
+      213: -772168585365847358
+    second: block_sheet_nagy_24
+  - first:
+      213: -7221865572737773740
+    second: block_sheet_nagy_25
+  - first:
+      213: 1218600665412124155
+    second: block_sheet_nagy_26
+  - first:
+      213: -1410051985469966640
+    second: block_sheet_nagy_27
+  - first:
+      213: -3636230126464956612
+    second: block_sheet_nagy_28
+  - first:
+      213: -5870638571782882819
+    second: block_sheet_nagy_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: block_sheet_nagy_0
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 158
+        width: 128
+        height: 264
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ca0d7902746e13e0800000000000000
+      internalID: -2081115536850351424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: block_sheet_nagy_1
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 158
+        width: 173
+        height: 253
+      alignment: 9
+      pivot: {x: 0.5, y: 0.54345477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19c59a84152855c60800000000000000
+      internalID: 7806288814739643537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: block_sheet_nagy_2
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 158
+        width: 247
+        height: 236
+      alignment: 9
+      pivot: {x: 0.5, y: 0.59317005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1099b4ea97d45d2d0800000000000000
+      internalID: -3254609970694743807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: block_sheet_nagy_3
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 158
+        width: 298
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5033549, y: 0.59317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 719c65b393b589630800000000000000
+      internalID: 3933994575874935063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: block_sheet_nagy_5
+      rect:
+        serializedVersion: 2
+        x: 2923
+        y: 158
+        width: 315
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b2a745d1fdfc97b0800000000000000
+      internalID: -5216015053294689608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: block_sheet_nagy_6
+      rect:
+        serializedVersion: 2
+        x: 3611
+        y: 158
+        width: 304
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3220d32f68d4d540800000000000000
+      internalID: 5031884655533498942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: block_sheet_nagy_7
+      rect:
+        serializedVersion: 2
+        x: 4305
+        y: 158
+        width: 298
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89045c0e20d5a0470800000000000000
+      internalID: 8361597925109088408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: block_sheet_nagy_8
+      rect:
+        serializedVersion: 2
+        x: 5011
+        y: 158
+        width: 275
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3ed14fd7b3c2610800000000000000
+      internalID: 1597717379962233844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: block_sheet_nagy_9
+      rect:
+        serializedVersion: 2
+        x: 5705
+        y: 158
+        width: 264
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4e878aab6fd2d10800000000000000
+      internalID: 2102607882602734777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: block_sheet_nagy_10
+      rect:
+        serializedVersion: 2
+        x: 6393
+        y: 158
+        width: 258
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcbcc8ec12ae78790800000000000000
+      internalID: -7527790821206340659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: block_sheet_nagy_11
+      rect:
+        serializedVersion: 2
+        x: 7076
+        y: 158
+        width: 258
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d496c4a9be1aca400800000000000000
+      internalID: 336822105424030029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: block_sheet_nagy_12
+      rect:
+        serializedVersion: 2
+        x: 7770
+        y: 158
+        width: 247
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769c0aab6b0523850800000000000000
+      internalID: 6355230769918560615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: block_sheet_nagy_13
+      rect:
+        serializedVersion: 2
+        x: 8458
+        y: 158
+        width: 241
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8180493e467f3d500800000000000000
+      internalID: 419951202962507800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: block_sheet_nagy_14
+      rect:
+        serializedVersion: 2
+        x: 9130
+        y: 158
+        width: 252
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497b35b25bccab370800000000000000
+      internalID: 8339202738517948308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: block_sheet_nagy_15
+      rect:
+        serializedVersion: 2
+        x: 9812
+        y: 158
+        width: 253
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3354b612906dbd4c0800000000000000
+      internalID: -4261577287672314573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: block_sheet_nagy_16
+      rect:
+        serializedVersion: 2
+        x: 10501
+        y: 158
+        width: 252
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bfcb6b4fbbe45900800000000000000
+      internalID: 672421451221684147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: block_sheet_nagy_17
+      rect:
+        serializedVersion: 2
+        x: 11189
+        y: 158
+        width: 247
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e8ecd0180fb1f70800000000000000
+      internalID: 9159178704261123677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: block_sheet_nagy_18
+      rect:
+        serializedVersion: 2
+        x: 11860
+        y: 158
+        width: 253
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e82a85811850820800000000000000
+      internalID: 2883853077966917137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: block_sheet_nagy_19
+      rect:
+        serializedVersion: 2
+        x: 12543
+        y: 158
+        width: 252
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 213ded77f9769a260800000000000000
+      internalID: 7109327421389591314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: block_sheet_nagy_20
+      rect:
+        serializedVersion: 2
+        x: 13231
+        y: 158
+        width: 247
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280314f0abacff690800000000000000
+      internalID: -7566105948490485630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: block_sheet_nagy_21
+      rect:
+        serializedVersion: 2
+        x: 13914
+        y: 158
+        width: 252
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0edda98353fa91a50800000000000000
+      internalID: 6492412980949081568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: block_sheet_nagy_22
+      rect:
+        serializedVersion: 2
+        x: 14591
+        y: 158
+        width: 252
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba013b863cb843bb0800000000000000
+      internalID: -4957183618436624213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: block_sheet_nagy_23
+      rect:
+        serializedVersion: 2
+        x: 15274
+        y: 158
+        width: 252
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2129a3a80fd4fd50800000000000000
+      internalID: 6770281368043200814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: block_sheet_nagy_24
+      rect:
+        serializedVersion: 2
+        x: 15956
+        y: 158
+        width: 236
+        height: 242
+      alignment: 9
+      pivot: {x: 0.5, y: 0.58}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c28d8243c4b845f0800000000000000
+      internalID: -772168585365847358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8a159ef0acf459b4f9e795fcbe465211
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      block_sheet_nagy_0: -2081115536850351424
+      block_sheet_nagy_1: 7806288814739643537
+      block_sheet_nagy_10: -7527790821206340659
+      block_sheet_nagy_11: 336822105424030029
+      block_sheet_nagy_12: 6355230769918560615
+      block_sheet_nagy_13: 419951202962507800
+      block_sheet_nagy_14: 8339202738517948308
+      block_sheet_nagy_15: -4261577287672314573
+      block_sheet_nagy_16: 672421451221684147
+      block_sheet_nagy_17: 9159178704261123677
+      block_sheet_nagy_18: 2883853077966917137
+      block_sheet_nagy_19: 7109327421389591314
+      block_sheet_nagy_2: -3254609970694743807
+      block_sheet_nagy_20: -7566105948490485630
+      block_sheet_nagy_21: 6492412980949081568
+      block_sheet_nagy_22: -4957183618436624213
+      block_sheet_nagy_23: 6770281368043200814
+      block_sheet_nagy_24: -772168585365847358
+      block_sheet_nagy_3: 3933994575874935063
+      block_sheet_nagy_5: -5216015053294689608
+      block_sheet_nagy_6: 5031884655533498942
+      block_sheet_nagy_7: 8361597925109088408
+      block_sheet_nagy_8: 1597717379962233844
+      block_sheet_nagy_9: 2102607882602734777
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
