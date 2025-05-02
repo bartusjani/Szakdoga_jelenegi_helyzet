@@ -43,7 +43,6 @@ public class PlayerAttack : MonoBehaviour
 
         if (Time.time >= attackTime && !isAttacking)
         {
-            
             if(Input.GetKeyDown(KeyCode.Tab) && canBlock &&movement.IsGrounded())
             {
                 StartCoroutine(Block());

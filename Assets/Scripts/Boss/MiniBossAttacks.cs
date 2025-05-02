@@ -112,10 +112,10 @@ public class MiniBossAttacks : MonoBehaviour
             }
             else
             {
-                if (attackRoll < 50)
+                if (attackRoll < 35)
                 {
                     StartCoroutine(PreformForwardSlash());
-                    nextAttackTime =Time.time + 2f;
+                    nextAttackTime =Time.time + 5f;
                 }
                 else
                 {
@@ -195,10 +195,8 @@ public class MiniBossAttacks : MonoBehaviour
         bool wasRanThroughPlayer=false;
         while (elapsedTime < attackTime)
         {
-            //damage when ran into player
             if(Vector2.Distance(rb.position, player.position) < 2f && !wasRanThroughPlayer)
             {
-                Debug.Log("AAAAAAAAAAAAAAA");
                 wasRanThroughPlayer = true;
                 DealDamage(slashDamage);
             }
@@ -209,16 +207,12 @@ public class MiniBossAttacks : MonoBehaviour
         }
 
         rb.linearVelocity = Vector2.zero;
-        //transform.position = targetPosition;
 
         Physics2D.IgnoreCollision(bossCollider, playerCollider, false);
 
         yield return new WaitForSeconds(1f);
         GetComponent<MiniBossMovement>().isDashing = false;
-        //DealDamage(attackPoint, slashDamage);
         animator.SetBool("DashAttack", false);
-        
-        //yield return new WaitForSeconds(2f);
     }
 
     IEnumerator PreformQuickSlash()

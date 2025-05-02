@@ -1,10 +1,12 @@
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemyHealth : MonoBehaviour
 {
 
     public int maxHealth = 20;
+    int bossPhase2health = 150;
     private int health;
     public EnemyHpBar hpBar;
     public GameObject bossHpBar;
@@ -21,6 +23,8 @@ public class EnemyHealth : MonoBehaviour
 
     public WayPointUI wp;
     public Transform bossRoomTarget;
+    public GameObject bossHpBarPhase2;
+    public EnemyHpBar bossPhase2;
 
     public int Health
     {
@@ -35,23 +39,18 @@ public class EnemyHealth : MonoBehaviour
     }
     public void TakeDamage(int damage)
     {
-        if (isBoss)
+        ScorpionAttacks sa = GetComponent<ScorpionAttacks>();
+        MiniBossAttacks mba = GetComponent<MiniBossAttacks>();
+        if (isBoss && mba.isBlocking)
         {
-            MiniBossAttacks mba = GetComponent<MiniBossAttacks>();
-            if (mba.isBlocking)
-            {
-                Debug.Log("Blocked attack");
-                return;
-            }
+            Debug.Log("Blocked attack");
+            return;
+
         }
-        else if (isScorpion)
+        else if (isScorpion && sa.isBlocking)
         {
-            ScorpionAttacks sa = GetComponent<ScorpionAttacks>();
-            if (sa.isBlocking)
-            {
-                Debug.Log("Blocked attack");
-                return;
-            }
+            Debug.Log("Blocked attack");
+            return;
         }
         else if (isHuman)
         {
@@ -73,14 +72,22 @@ public class EnemyHealth : MonoBehaviour
                 wp.SetTarget(bossRoomTarget);
             }
         }
-        else
+        health -= damage;
+
+
+        if (isBoss && health <= 150 && bossHpBar.activeSelf)
         {
-            health -= damage;
-            hpBar.setHealth(health);
-            if (health <= 0)
-            {
-                Die(0f);
-            }
+            bossHpBar.SetActive(false);
+            bossHpBarPhase2.SetActive(true);
+            hpBar = bossPhase2;
+            hpBar.SetMaxHealth(bossPhase2health);
+        }
+
+
+        hpBar.setHealth(health);
+        if (health <= 0)
+        {
+            Die(0f);
         }
 
     }
@@ -94,7 +101,7 @@ public class EnemyHealth : MonoBehaviour
         {
             bossTrigger.SetActive(true);
             libraryTeleport.SetActive(true);
-            bossHpBar.SetActive(false);
+            bossHpBarPhase2.SetActive(false);
             isBossDead = true;
         }
         if (time> 0)
