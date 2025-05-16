@@ -53,6 +53,10 @@ public class InventoryPage : MonoBehaviour
     public void Hide()
     {
         gameObject.SetActive(false);
+        foreach (var invItem in items)
+        {
+            invItem.Deselect();
+        }
     }
 
 }

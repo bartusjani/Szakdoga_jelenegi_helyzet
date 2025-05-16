@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7feac682d1c05e8449bba6d2139f0580
+guid: b0e68e8a46b49e54996a4ddde5a6be60
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4156799402865353041
-    second: boss_health_phase1_empty_big_0
+      213: -3156790076438849810
+    second: stamina (1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -48,10 +48,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,23 +126,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boss_health_phase1_empty_big_0
+      name: stamina (1)_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2385
-        height: 386
+        width: 4470
+        height: 1019
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 745, y: 0, z: 600, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1516852880befa930800000000000000
-      internalID: 4156799402865353041
+      spriteID: ee6526f9624d034d0800000000000000
+      internalID: -3156790076438849810
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7a894d1343b43f84c824393f0c8439b9
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      boss_health_phase1_empty_big_0: 4156799402865353041
+      stamina (1)_0: -3156790076438849810
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
