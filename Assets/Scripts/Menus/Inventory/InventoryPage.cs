@@ -14,6 +14,9 @@ public class InventoryPage : MonoBehaviour
     ItemDescription itemDesc;
 
     public List<Item> items = new List<Item>();
+    public GameObject pauseMenu;
+    public GameObject gameMenu;
+    private bool openedFromPause = false;
 
     public void IntializeInv(int size)
     {
@@ -43,15 +46,30 @@ public class InventoryPage : MonoBehaviour
         itemDesc.SetDesc(item.title.text, item.desc.text);
     }
 
-    public void Show()
+    public void Show(bool fromPause=false)
     {
+        openedFromPause = fromPause;
+
+        gameMenu.SetActive(true);
+        pauseMenu.SetActive(false);
         gameObject.SetActive(true);
         itemPrefab.ResetDesc();
         itemDesc.ResetDesc();
+
+        if (!fromPause)
+            Time.timeScale = 0f;
     }
 
     public void Hide()
     {
+        if (openedFromPause)
+        {
+            pauseMenu.SetActive(true);
+        }
+        else
+        {
+            Time.timeScale = 1f;
+        }
         gameObject.SetActive(false);
         foreach (var invItem in items)
         {

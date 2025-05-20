@@ -8,11 +8,12 @@ public class PauseMenu : MonoBehaviour
 {
     public static bool isGamePaused = false;
     public bool isOptionsOpened = false;
+
     public GameObject pauseMenuUI;
     public GameObject hpUI;
-    public GameObject optionsMenuUI;
     public GameObject inGameMenu;
-
+    public GameObject player;
+    public GameObject settingsMenu;
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape) && !isOptionsOpened)
@@ -53,7 +54,7 @@ public class PauseMenu : MonoBehaviour
     {
         isOptionsOpened = true;
         pauseMenuUI.SetActive(false);
-        optionsMenuUI.SetActive(true);
+        settingsMenu.SetActive(true);
     }
 
     public void QuitGame()
@@ -64,7 +65,12 @@ public class PauseMenu : MonoBehaviour
 
     public void Back()
     {
-        optionsMenuUI.SetActive(false);
+        settingsMenu.SetActive(false);
         pauseMenuUI.SetActive(true);
+    }
+
+    public void OpenInventoryFromPause()
+    {
+        player.GetComponent<InventoryController>().OpenFromPause();
     }
 }

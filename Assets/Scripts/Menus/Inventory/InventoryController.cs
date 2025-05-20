@@ -24,5 +24,14 @@ public class InventoryController : MonoBehaviour
                 invUI.Hide();
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape) && invUI.isActiveAndEnabled)
+        {
+            invUI.Hide();
+        }
+    }
+    public void OpenFromPause()
+    {
+        invUI.Show(true);
     }
 }
