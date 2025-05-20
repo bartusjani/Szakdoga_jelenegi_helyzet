@@ -1,5 +1,6 @@
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -12,6 +13,9 @@ public class PlayerHealth : MonoBehaviour
     PlayerRespawn pr;
     bool died;
 
+    public GameObject respawnScreen;
+    public Button respawnButton;
+
     void Start()
     {
         died = false;
@@ -19,6 +23,9 @@ public class PlayerHealth : MonoBehaviour
         healthbar.SetMaxHealth(maxHealth);
         pr = GameObject.Find("Player").GetComponent<PlayerRespawn>();
         pa = GetComponent<PlayerAttack>();
+
+        respawnScreen.SetActive(false);
+        respawnButton.onClick.AddListener(OnRespawnButtonClicked);
     }
 
 
@@ -35,10 +42,21 @@ public class PlayerHealth : MonoBehaviour
     }
     public void Die()
     {
-        
-        pr.Respawn();
+
+        died = true;
+        respawnScreen.SetActive(true);
+        Time.timeScale = 0f;
+
+    }
+
+
+    public void OnRespawnButtonClicked()
+    {
+        died = false;
+        respawnScreen.SetActive(false);
+        Time.timeScale = 1f;            
+        pr.Respawn();                   
         health = maxHealth;
         healthbar.SetMaxHealth(maxHealth);
-
     }
 }
