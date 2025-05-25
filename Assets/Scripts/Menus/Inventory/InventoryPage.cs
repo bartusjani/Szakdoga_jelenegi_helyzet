@@ -31,7 +31,16 @@ public class InventoryPage : MonoBehaviour
 
     private void Awake()
     {
-        Hide();
+        foreach (var invItem in items)
+        {
+            invItem.Deselect();
+        }
+
+        
+        gameMenu.SetActive(false);
+        pauseMenu.SetActive(false);
+        itemPrefab.ResetDesc();
+        itemDesc.ResetDesc();
     }
 
     private void HandleItemSelected(Item item)
