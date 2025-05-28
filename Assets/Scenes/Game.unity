@@ -29593,7 +29593,7 @@ Transform:
   m_GameObject: {fileID: 793944880}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.12, y: 5.59, z: 0}
+  m_LocalPosition: {x: 5.15, y: 2.1, z: 0}
   m_LocalScale: {x: 0.06702013, y: 0.06353308, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -127103,7 +127103,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1550557918
 RectTransform:
   m_ObjectHideFlags: 0
@@ -127124,10 +127124,10 @@ RectTransform:
   - {fileID: 1938893622}
   m_Father: {fileID: 1162561386}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 399.99994, y: -225.51178}
+  m_SizeDelta: {x: 699.9999, y: 351.02356}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1550557919
 MonoBehaviour:
@@ -136744,6 +136744,7 @@ GameObject:
   - component: {fileID: 1978266588}
   - component: {fileID: 1978266587}
   - component: {fileID: 1978266586}
+  - component: {fileID: 1978266589}
   m_Layer: 5
   m_Name: WayPointIcon
   m_TagString: Untagged
@@ -136804,7 +136805,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4246165634331577392, guid: be2f044b469fb5943b8e9388813c4a89, type: 3}
+  m_Sprite: {fileID: -44112141339205300, guid: 17a8ae6986fa00d489aa7b8e9aaafa9b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -136822,6 +136823,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1978266584}
   m_CullTransparentMesh: 1
+--- !u!95 &1978266589
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978266584}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 25c46b51edb264b47b5a8220fd5cb64a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1979845709
 GameObject:
   m_ObjectHideFlags: 0
