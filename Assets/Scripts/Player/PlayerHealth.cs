@@ -48,6 +48,10 @@ public class PlayerHealth : MonoBehaviour
         Time.timeScale = 0f;
 
     }
+    public int GetHealth()
+    {
+        return health;
+    }
 
 
     public void OnRespawnButtonClicked()

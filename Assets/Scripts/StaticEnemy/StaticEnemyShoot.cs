@@ -9,7 +9,7 @@ public class EnemyShoot : MonoBehaviour
 
     Animator fireballAnimator;
 
-    public float fireRate = 1f;
+    public float fireRate = 0.5f;
     private float fireTimer;
 
     private bool canShoot = true;

@@ -154,12 +154,13 @@ public class Movement : MonoBehaviour
         }
 
         rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
+
+        float yVel = rb.linearVelocity.y;
+        float yThreshold = 0.1f;
+        float filteredYVelocity = Mathf.Abs(yVel) < yThreshold ? 0f : yVel;
+
         animator.SetFloat("xVelocity", Math.Abs(rb.linearVelocity.x));
-        animator.SetFloat("yVelocity", rb.linearVelocity.y);
-
-
-        
-
+        animator.SetFloat("yVelocity", filteredYVelocity);
     }
 
     private void Flip()

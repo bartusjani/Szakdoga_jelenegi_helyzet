@@ -9,10 +9,27 @@ public class PlayerTutorialTrigger : MonoBehaviour
     public GameObject platformerHelp;
     public List<GameObject> tutorialSteps;
     public List<GameObject> combatSteps;
+    public List<GameObject> healthSteps;
+    PlayerHealth player;
 
     int currentStep = 0;
     int helpcounter = 0;
+    bool healthHelp = false;
 
+    private void Start()
+    {
+        player = GetComponent<PlayerHealth>();
+    }
+    void Update()
+    {
+        
+        if (!healthHelp && player.GetHealth()< 100)
+        {
+            Time.timeScale = 0;
+            ShowStep(0);
+            healthHelp = true;
+        }
+    }
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("PlatformCollider") && helpcounter<1)
@@ -40,9 +57,9 @@ public class PlayerTutorialTrigger : MonoBehaviour
     private void ShowStep(int index)
     {
         currentStep = index;
-        for (int i = 0; i < tutorialSteps.Count; i++)
+        for (int i = 0; i < healthSteps.Count; i++)
         {
-            tutorialSteps[i].SetActive(i == index);
+            healthSteps[i].SetActive(i == index);
         }
     }
 
@@ -56,15 +73,6 @@ public class PlayerTutorialTrigger : MonoBehaviour
         }
     }
 
-    private void ShowCombatStep(int index)
-    {
-        currentStep = index;
-        for (int i = 0; i < combatSteps.Count; i++)
-        {
-            combatSteps[i].SetActive(i == index);
-        }
-    }
-
     public void NextCombatStep()
     {
         if (currentStep < combatSteps.Count - 1)
@@ -74,11 +82,21 @@ public class PlayerTutorialTrigger : MonoBehaviour
             combatSteps[currentStep].SetActive(true);
         }
     }
+    public void NextHealthStep()
+    {
+        if (currentStep < healthSteps.Count - 1)
+        {
+            healthSteps[currentStep].SetActive(false);
+            currentStep++;
+            healthSteps[currentStep].SetActive(true);
+        }
+    }
 
     public void CloseTutorial(GameObject gameObject)
     {
 
         gameObject.SetActive(false);
+        currentStep = 0;
         Time.timeScale = 1;
 
 
