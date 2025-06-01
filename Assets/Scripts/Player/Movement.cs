@@ -73,7 +73,7 @@ public class Movement : MonoBehaviour
 
        
 
-        if (Input.GetKey(KeyCode.S) && IsGrounded()&& playerStamina.stamina > runStamina)
+        if (Input.GetKey(KeyCode.S) && IsGrounded()&& playerStamina.stamina > runStamina && (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)))
         {
             Run();
             staminaUseTimer += Time.deltaTime;

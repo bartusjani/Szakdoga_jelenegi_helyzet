@@ -34,6 +34,11 @@ public class PlayerAttack : MonoBehaviour
     public int attackRate = 2;
     bool isAttacking = false;
 
+    private float clickStartTime;
+    private float holdThreshold=0.5f;
+    private bool isHolding;
+    private bool strongAttackStarted;
+
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -47,21 +52,50 @@ public class PlayerAttack : MonoBehaviour
             {
                 StartCoroutine(Block());
             }
-            else if (Input.GetKeyDown(KeyCode.Q) && !movement.IsGrounded())
+            else if (Input.GetKeyDown(KeyCode.Mouse0) && !movement.IsGrounded())
             {
                 StartCoroutine(JumpAttack());
                 attackTime = Time.time + 1f / attackRate;
             }
-            else if (Input.GetKeyDown(KeyCode.Q) && movement.IsGrounded())
+            if (Input.GetMouseButtonDown(0) && movement.IsGrounded())
             {
-                HandleCombo();
+                clickStartTime = Time.time;
+                isHolding = true;
+                strongAttackStarted = false;
             }
-            else if (Input.GetKeyDown(KeyCode.Y) && movement.IsGrounded()) 
+
+            if (isHolding && !strongAttackStarted && Input.GetMouseButton(0))
             {
-                StartCoroutine(StrongAttack());
-                attackTime = Time.time + 3f / attackRate;
+                float heldTime = Time.time - clickStartTime;
+
+                if (heldTime >= holdThreshold)
+                {
+                    StartCoroutine(StrongAttack());
+                    attackTime = Time.time + 3f / attackRate;
+                    strongAttackStarted = true;
+                }
             }
-            else if (Input.GetKeyDown(KeyCode.X) && movement.IsGrounded())
+
+            if (Input.GetMouseButtonUp(0) && isHolding)
+            {
+                if (!strongAttackStarted)
+                {
+                    HandleCombo();
+                }
+
+                isHolding = false;
+                strongAttackStarted = false;
+            }
+            //else if (Input.GetKeyDown(KeyCode.Mouse0) && movement.IsGrounded())
+            //{
+            //    HandleCombo();
+            //}
+            //else if (Input.GetMouseButtonDown(0) && movement.IsGrounded())
+            //{
+            //    StartCoroutine(StrongAttack());
+            //    attackTime = Time.time + 3f / attackRate;
+            //}
+            else if (Input.GetKeyDown(KeyCode.Mouse1) && movement.IsGrounded())
             {
                 StartCoroutine(AreaAttack());
                 attackTime = Time.time + 1f / attackRate;
