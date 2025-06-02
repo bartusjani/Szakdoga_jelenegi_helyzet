@@ -27,9 +27,13 @@ public class Movement : MonoBehaviour
     [SerializeField] public Rigidbody2D rb;
     [SerializeField] public Transform groundCheck;
     [SerializeField] public LayerMask groundLayer;
+    [SerializeField] private AudioClip[] walkClip;
 
     float runStamina = 10f;
     float dashStamina = 20f;
+
+    private float footstepTimer=0f;
+    private float footstepInterval=0.2f;
 
     private void Start()
     {
@@ -47,6 +51,7 @@ public class Movement : MonoBehaviour
         }
 
         horizontal = Input.GetAxis("Horizontal");
+        
 
         if((Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W)) && IsGrounded())
         {
@@ -161,6 +166,21 @@ public class Movement : MonoBehaviour
 
         animator.SetFloat("xVelocity", Math.Abs(rb.linearVelocity.x));
         animator.SetFloat("yVelocity", filteredYVelocity);
+
+        if (Mathf.Abs(horizontal) > 0.1f && IsGrounded() && !isDashing)
+        {
+            footstepTimer += Time.fixedDeltaTime;
+            if (footstepTimer >= footstepInterval)
+            {
+                
+                AudioManager.instance.PlayRandomSound(walkClip,transform,0.9f);
+                footstepTimer = 0f;
+            }
+        }
+        else
+        {
+            footstepTimer = 0f;
+        }
     }
 
     private void Flip()

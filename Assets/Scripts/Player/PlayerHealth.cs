@@ -18,6 +18,8 @@ public class PlayerHealth : MonoBehaviour
     public Button respawnButton;
     Animator animator;
 
+    [SerializeField] AudioClip damageClip;
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -40,6 +42,7 @@ public class PlayerHealth : MonoBehaviour
             return;
         }
         health -= damage;
+        AudioManager.instance.PlaySound(damageClip,transform,0.5f);
         healthbar.setHealth(health);
         if (health <= 0) StartCoroutine(Die());
     }
