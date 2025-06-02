@@ -1,0 +1,501 @@
+fileFormatVersion: 2
+guid: dcee6cab80b280545af839cb2f9a885c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5872268328794893571
+    second: sewer_death_sheet_nagy_0
+  - first:
+      213: -7490315953146857240
+    second: sewer_death_sheet_nagy_1
+  - first:
+      213: 3763357129255748238
+    second: sewer_death_sheet_nagy_2
+  - first:
+      213: 4585427081075944000
+    second: sewer_death_sheet_nagy_3
+  - first:
+      213: 2676775617741862727
+    second: sewer_death_sheet_nagy_4
+  - first:
+      213: -6962688422725444020
+    second: sewer_death_sheet_nagy_5
+  - first:
+      213: -2475466598827615870
+    second: sewer_death_sheet_nagy_6
+  - first:
+      213: -461705678503573013
+    second: sewer_death_sheet_nagy_7
+  - first:
+      213: -5825037643334453854
+    second: sewer_death_sheet_nagy_8
+  - first:
+      213: -5223730482107542908
+    second: sewer_death_sheet_nagy_9
+  - first:
+      213: -4958176787553461411
+    second: sewer_death_sheet_nagy_10
+  - first:
+      213: -8254009884787519495
+    second: sewer_death_sheet_nagy_11
+  - first:
+      213: 6842634535117469421
+    second: sewer_death_sheet_nagy_12
+  - first:
+      213: 6414660233502170307
+    second: sewer_death_sheet_nagy_13
+  - first:
+      213: 6342974773462257744
+    second: sewer_death_sheet_nagy_14
+  - first:
+      213: -7279559901762895763
+    second: sewer_death_sheet_nagy_15
+  - first:
+      213: 3564387932336792137
+    second: sewer_death_sheet_nagy_16
+  - first:
+      213: 4629423050855153047
+    second: sewer_death_sheet_nagy_17
+  - first:
+      213: -7921100524459272328
+    second: sewer_death_sheet_nagy_18
+  - first:
+      213: -8899427079765113979
+    second: sewer_death_sheet_nagy_19
+  - first:
+      213: -9006590888368443802
+    second: sewer_death_sheet_nagy_20
+  - first:
+      213: 4463453451585032263
+    second: sewer_death_sheet_nagy_21
+  - first:
+      213: 8286467033951340735
+    second: sewer_death_sheet_nagy_22
+  - first:
+      213: 7998446136365325377
+    second: sewer_death_sheet_nagy_23
+  - first:
+      213: -7643876044303277770
+    second: sewer_death_sheet_nagy_24
+  - first:
+      213: -8740088903083688541
+    second: sewer_death_sheet_nagy_25
+  - first:
+      213: -2342297263959610147
+    second: sewer_death_sheet_nagy_26
+  - first:
+      213: -2512100278389491210
+    second: sewer_death_sheet_nagy_27
+  - first:
+      213: 3347254476133224293
+    second: sewer_death_sheet_nagy_28
+  - first:
+      213: 1150133253855722139
+    second: sewer_death_sheet_nagy_29
+  - first:
+      213: -5963299294939156518
+    second: sewer_death_sheet_nagy_30
+  - first:
+      213: 1003577822951245383
+    second: sewer_death_sheet_nagy_31
+  - first:
+      213: -2917636870816048365
+    second: sewer_death_sheet_nagy_32
+  - first:
+      213: 3624151386719683343
+    second: sewer_death_sheet_nagy_33
+  - first:
+      213: -6051378608897014284
+    second: sewer_death_sheet_nagy_34
+  - first:
+      213: 5320708690878702415
+    second: sewer_death_sheet_nagy_35
+  - first:
+      213: -5487865895005200239
+    second: sewer_death_sheet_nagy_36
+  - first:
+      213: 6500804399278204273
+    second: sewer_death_sheet_nagy_37
+  - first:
+      213: 8865120892382113052
+    second: sewer_death_sheet_nagy_38
+  - first:
+      213: 8232535951971807097
+    second: sewer_death_sheet_nagy_39
+  - first:
+      213: 5340988123408946639
+    second: sewer_death_sheet_nagy_40
+  - first:
+      213: -2156283315200149590
+    second: sewer_death_sheet_nagy_41
+  - first:
+      213: 2764700495147854160
+    second: sewer_death_sheet_nagy_42
+  - first:
+      213: 8469946651499187647
+    second: sewer_death_sheet_nagy_43
+  - first:
+      213: 7670896599454129366
+    second: sewer_death_sheet_nagy_44
+  - first:
+      213: 7404018920512627704
+    second: sewer_death_sheet_nagy_45
+  - first:
+      213: -7534990642345428247
+    second: sewer_death_sheet_nagy_46
+  - first:
+      213: 7016264971160752392
+    second: sewer_death_sheet_nagy_47
+  - first:
+      213: -6513054119423377411
+    second: sewer_death_sheet_nagy_48
+  - first:
+      213: -2358128560632535608
+    second: sewer_death_sheet_nagy_49
+  - first:
+      213: -3164629554461023593
+    second: sewer_death_sheet_nagy_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 15
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sewer_death_sheet_nagy_0
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 363
+        width: 1712
+        height: 982
+      alignment: 9
+      pivot: {x: 0.5027177, y: 0.009604989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30da893beec7e7150800000000000000
+      internalID: 5872268328794893571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_death_sheet_nagy_1
+      rect:
+        serializedVersion: 2
+        x: 2245
+        y: 363
+        width: 1750
+        height: 982
+      alignment: 9
+      pivot: {x: 0.49999985, y: 0.00486687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e87d35735d0d0890800000000000000
+      internalID: -7490315953146857240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_death_sheet_nagy_2
+      rect:
+        serializedVersion: 2
+        x: 4561
+        y: 363
+        width: 1694
+        height: 982
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011974047}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e820934be512a3430800000000000000
+      internalID: 3763357129255748238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_death_sheet_nagy_3
+      rect:
+        serializedVersion: 2
+        x: 6903
+        y: 366
+        width: 1624
+        height: 982
+      alignment: 9
+      pivot: {x: 0.5, y: 0.011974079}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04aecf6b2a5b2af30800000000000000
+      internalID: 4585427081075944000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_death_sheet_nagy_22
+      rect:
+        serializedVersion: 2
+        x: 9272
+        y: 363
+        width: 848
+        height: 982
+      alignment: 9
+      pivot: {x: 0.5027431, y: 0.019081194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb887a12dd17ff270800000000000000
+      internalID: 8286467033951340735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_death_sheet_nagy_27
+      rect:
+        serializedVersion: 2
+        x: 10980
+        y: 363
+        width: 570
+        height: 982
+      alignment: 9
+      pivot: {x: 0.495919, y: 0.019081194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f93f624b1a332dd0800000000000000
+      internalID: -2512100278389491210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_death_sheet_nagy_46
+      rect:
+        serializedVersion: 2
+        x: 12459
+        y: 365
+        width: 332
+        height: 982
+      alignment: 9
+      pivot: {x: 0.5070065, y: 0.014343199}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eabb11dee55e6790800000000000000
+      internalID: -7534990642345428247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: dbf43e1bde8ccda4b9102dbac89a2e23
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sewer_death_sheet_nagy_0: 5872268328794893571
+      sewer_death_sheet_nagy_1: -7490315953146857240
+      sewer_death_sheet_nagy_10: -4958176787553461411
+      sewer_death_sheet_nagy_11: -8254009884787519495
+      sewer_death_sheet_nagy_12: 6842634535117469421
+      sewer_death_sheet_nagy_13: 6414660233502170307
+      sewer_death_sheet_nagy_14: 6342974773462257744
+      sewer_death_sheet_nagy_15: -7279559901762895763
+      sewer_death_sheet_nagy_16: 3564387932336792137
+      sewer_death_sheet_nagy_17: 4629423050855153047
+      sewer_death_sheet_nagy_18: -7921100524459272328
+      sewer_death_sheet_nagy_19: -8899427079765113979
+      sewer_death_sheet_nagy_2: 3763357129255748238
+      sewer_death_sheet_nagy_20: -9006590888368443802
+      sewer_death_sheet_nagy_21: 4463453451585032263
+      sewer_death_sheet_nagy_22: 8286467033951340735
+      sewer_death_sheet_nagy_23: 7998446136365325377
+      sewer_death_sheet_nagy_24: -7643876044303277770
+      sewer_death_sheet_nagy_25: -8740088903083688541
+      sewer_death_sheet_nagy_26: -2342297263959610147
+      sewer_death_sheet_nagy_27: -2512100278389491210
+      sewer_death_sheet_nagy_28: 3347254476133224293
+      sewer_death_sheet_nagy_29: 1150133253855722139
+      sewer_death_sheet_nagy_3: 4585427081075944000
+      sewer_death_sheet_nagy_30: -5963299294939156518
+      sewer_death_sheet_nagy_31: 1003577822951245383
+      sewer_death_sheet_nagy_32: -2917636870816048365
+      sewer_death_sheet_nagy_33: 3624151386719683343
+      sewer_death_sheet_nagy_34: -6051378608897014284
+      sewer_death_sheet_nagy_35: 5320708690878702415
+      sewer_death_sheet_nagy_36: -5487865895005200239
+      sewer_death_sheet_nagy_37: 6500804399278204273
+      sewer_death_sheet_nagy_38: 8865120892382113052
+      sewer_death_sheet_nagy_39: 8232535951971807097
+      sewer_death_sheet_nagy_4: 2676775617741862727
+      sewer_death_sheet_nagy_40: 5340988123408946639
+      sewer_death_sheet_nagy_41: -2156283315200149590
+      sewer_death_sheet_nagy_42: 2764700495147854160
+      sewer_death_sheet_nagy_43: 8469946651499187647
+      sewer_death_sheet_nagy_44: 7670896599454129366
+      sewer_death_sheet_nagy_45: 7404018920512627704
+      sewer_death_sheet_nagy_46: -7534990642345428247
+      sewer_death_sheet_nagy_47: 7016264971160752392
+      sewer_death_sheet_nagy_48: -6513054119423377411
+      sewer_death_sheet_nagy_49: -2358128560632535608
+      sewer_death_sheet_nagy_5: -6962688422725444020
+      sewer_death_sheet_nagy_50: -3164629554461023593
+      sewer_death_sheet_nagy_6: -2475466598827615870
+      sewer_death_sheet_nagy_7: -461705678503573013
+      sewer_death_sheet_nagy_8: -5825037643334453854
+      sewer_death_sheet_nagy_9: -5223730482107542908
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

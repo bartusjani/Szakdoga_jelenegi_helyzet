@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 03aafe70b21566d4e9064e4f7aed3229
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 64907933646097933
+    second: human_death_sheet_nagy_0
+  - first:
+      213: 4607735444774910515
+    second: human_death_sheet_nagy_1
+  - first:
+      213: 2628869982129074884
+    second: human_death_sheet_nagy_2
+  - first:
+      213: 5985869684495672873
+    second: human_death_sheet_nagy_3
+  - first:
+      213: -3920480287448765064
+    second: human_death_sheet_nagy_4
+  - first:
+      213: 5929221168421838199
+    second: human_death_sheet_nagy_5
+  - first:
+      213: 2947125795778197788
+    second: human_death_sheet_nagy_6
+  - first:
+      213: 1220051193943187382
+    second: human_death_sheet_nagy_7
+  - first:
+      213: -7541250324970455420
+    second: human_death_sheet_nagy_8
+  - first:
+      213: 1842866944733485117
+    second: human_death_sheet_nagy_9
+  - first:
+      213: 4751777410046741128
+    second: human_death_sheet_nagy_10
+  - first:
+      213: 6952419657764732721
+    second: human_death_sheet_nagy_11
+  - first:
+      213: 4915988738908327516
+    second: human_death_sheet_nagy_12
+  - first:
+      213: 9154358398409546914
+    second: human_death_sheet_nagy_13
+  - first:
+      213: 3463671546410208222
+    second: human_death_sheet_nagy_14
+  - first:
+      213: 1390549491752502386
+    second: human_death_sheet_nagy_15
+  - first:
+      213: -4158937791452442337
+    second: human_death_sheet_nagy_16
+  - first:
+      213: -2159744033655763592
+    second: human_death_sheet_nagy_17
+  - first:
+      213: -7868649720181839880
+    second: human_death_sheet_nagy_18
+  - first:
+      213: -1435402113159129882
+    second: human_death_sheet_nagy_19
+  - first:
+      213: -2355794876377819635
+    second: human_death_sheet_nagy_20
+  - first:
+      213: -9031060700892810897
+    second: human_death_sheet_nagy_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: human_death_sheet_nagy_0
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 498
+        width: 714
+        height: 847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e8418fb6996e000800000000000000
+      internalID: 64907933646097933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_death_sheet_nagy_1
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 498
+        width: 752
+        height: 847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33af8c469f6f1ff30800000000000000
+      internalID: 4607735444774910515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_death_sheet_nagy_2
+      rect:
+        serializedVersion: 2
+        x: 2629
+        y: 498
+        width: 752
+        height: 847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c2bd75025f9b7420800000000000000
+      internalID: 2628869982129074884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_death_sheet_nagy_3
+      rect:
+        serializedVersion: 2
+        x: 3935
+        y: 498
+        width: 559
+        height: 847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926e42873c4121350800000000000000
+      internalID: 5985869684495672873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_death_sheet_nagy_6
+      rect:
+        serializedVersion: 2
+        x: 5041
+        y: 484
+        width: 400
+        height: 847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19ffb5fb4b46e820800000000000000
+      internalID: 2947125795778197788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_death_sheet_nagy_7
+      rect:
+        serializedVersion: 2
+        x: 6066
+        y: 498
+        width: 291
+        height: 847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf56c6c81e7ee010800000000000000
+      internalID: 1220051193943187382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_death_sheet_nagy_14
+      rect:
+        serializedVersion: 2
+        x: 7045
+        y: 498
+        width: 406
+        height: 847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb886e8bee611030800000000000000
+      internalID: 3463671546410208222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_death_sheet_nagy_15
+      rect:
+        serializedVersion: 2
+        x: 8063
+        y: 498
+        width: 463
+        height: 847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 274028235693c4310800000000000000
+      internalID: 1390549491752502386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_death_sheet_nagy_18
+      rect:
+        serializedVersion: 2
+        x: 9215
+        y: 498
+        width: 463
+        height: 847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7a596f4c0fcc290800000000000000
+      internalID: -7868649720181839880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5ab8b52d0b02f25428bff0d339e49a97
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      human_death_sheet_nagy_0: 64907933646097933
+      human_death_sheet_nagy_1: 4607735444774910515
+      human_death_sheet_nagy_10: 4751777410046741128
+      human_death_sheet_nagy_11: 6952419657764732721
+      human_death_sheet_nagy_12: 4915988738908327516
+      human_death_sheet_nagy_13: 9154358398409546914
+      human_death_sheet_nagy_14: 3463671546410208222
+      human_death_sheet_nagy_15: 1390549491752502386
+      human_death_sheet_nagy_16: -4158937791452442337
+      human_death_sheet_nagy_17: -2159744033655763592
+      human_death_sheet_nagy_18: -7868649720181839880
+      human_death_sheet_nagy_19: -1435402113159129882
+      human_death_sheet_nagy_2: 2628869982129074884
+      human_death_sheet_nagy_20: -2355794876377819635
+      human_death_sheet_nagy_21: -9031060700892810897
+      human_death_sheet_nagy_3: 5985869684495672873
+      human_death_sheet_nagy_4: -3920480287448765064
+      human_death_sheet_nagy_5: 5929221168421838199
+      human_death_sheet_nagy_6: 2947125795778197788
+      human_death_sheet_nagy_7: 1220051193943187382
+      human_death_sheet_nagy_8: -7541250324970455420
+      human_death_sheet_nagy_9: 1842866944733485117
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

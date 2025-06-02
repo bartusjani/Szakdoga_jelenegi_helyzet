@@ -1,0 +1,495 @@
+fileFormatVersion: 2
+guid: 6902fbc3473059a45b5133ba75a0d314
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6730255854650328090
+    second: playe_death_sheet_big_0
+  - first:
+      213: 8662815454598809194
+    second: playe_death_sheet_big_1
+  - first:
+      213: -4640126484475102909
+    second: playe_death_sheet_big_2
+  - first:
+      213: -1926117934617443158
+    second: playe_death_sheet_big_3
+  - first:
+      213: -4356027336808289778
+    second: playe_death_sheet_big_4
+  - first:
+      213: -7044247146241777689
+    second: playe_death_sheet_big_5
+  - first:
+      213: -7133839629969223893
+    second: playe_death_sheet_big_6
+  - first:
+      213: 5663461101321187356
+    second: playe_death_sheet_big_7
+  - first:
+      213: 231366346029509674
+    second: playe_death_sheet_big_8
+  - first:
+      213: 671214468895271800
+    second: playe_death_sheet_big_9
+  - first:
+      213: -4423703215617224547
+    second: playe_death_sheet_big_10
+  - first:
+      213: -3481827958883553444
+    second: playe_death_sheet_big_11
+  - first:
+      213: -4646203851877756729
+    second: playe_death_sheet_big_12
+  - first:
+      213: -8807550932586755778
+    second: playe_death_sheet_big_13
+  - first:
+      213: -6042133246319227898
+    second: playe_death_sheet_big_14
+  - first:
+      213: 6090287195857862484
+    second: playe_death_sheet_big_15
+  - first:
+      213: -2780866652598732343
+    second: playe_death_sheet_big_16
+  - first:
+      213: 4914206550175507400
+    second: playe_death_sheet_big_17
+  - first:
+      213: -2862282533939609421
+    second: playe_death_sheet_big_18
+  - first:
+      213: -2282277811772156145
+    second: playe_death_sheet_big_19
+  - first:
+      213: -5798904333413866876
+    second: playe_death_sheet_big_20
+  - first:
+      213: 8448684427267140130
+    second: playe_death_sheet_big_21
+  - first:
+      213: 8013273150044141810
+    second: playe_death_sheet_big_22
+  - first:
+      213: 6104618476874302533
+    second: playe_death_sheet_big_23
+  - first:
+      213: 5449431910385047675
+    second: playe_death_sheet_big_24
+  - first:
+      213: -4642750491051028355
+    second: playe_death_sheet_big_25
+  - first:
+      213: -3980653448748418457
+    second: playe_death_sheet_big_26
+  - first:
+      213: -6529627687672372231
+    second: playe_death_sheet_big_27
+  - first:
+      213: -2108106019468427912
+    second: playe_death_sheet_big_28
+  - first:
+      213: -8252507792235738349
+    second: playe_death_sheet_big_29
+  - first:
+      213: 6295039739306714620
+    second: playe_death_sheet_big_30
+  - first:
+      213: -6885235584708511401
+    second: playe_death_sheet_big_31
+  - first:
+      213: -5450881629655654311
+    second: playe_death_sheet_big_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 22
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: playe_death_sheet_big_0
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 538
+        width: 562
+        height: 807
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a140de79a0ca66d50800000000000000
+      internalID: 6730255854650328090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playe_death_sheet_big_1
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 538
+        width: 656
+        height: 807
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a66402622c0883870800000000000000
+      internalID: 8662815454598809194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playe_death_sheet_big_2
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 538
+        width: 675
+        height: 807
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 349bafbfb85fa9fb0800000000000000
+      internalID: -4640126484475102909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playe_death_sheet_big_3
+      rect:
+        serializedVersion: 2
+        x: 4530
+        y: 536
+        width: 751
+        height: 807
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa44e9781fd0545e0800000000000000
+      internalID: -1926117934617443158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playe_death_sheet_big_4
+      rect:
+        serializedVersion: 2
+        x: 5823
+        y: 536
+        width: 733
+        height: 807
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0aa6a567384c83c0800000000000000
+      internalID: -4356027336808289778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playe_death_sheet_big_11
+      rect:
+        serializedVersion: 2
+        x: 7087
+        y: 540
+        width: 650
+        height: 807
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5fe8bd3bef0eafc0800000000000000
+      internalID: -3481827958883553444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playe_death_sheet_big_19
+      rect:
+        serializedVersion: 2
+        x: 8198
+        y: 536
+        width: 482
+        height: 807
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0790961c68b350e0800000000000000
+      internalID: -2282277811772156145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playe_death_sheet_big_25
+      rect:
+        serializedVersion: 2
+        x: 9137
+        y: 536
+        width: 386
+        height: 807
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d701228d603a19fb0800000000000000
+      internalID: -4642750491051028355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playe_death_sheet_big_26
+      rect:
+        serializedVersion: 2
+        x: 10059
+        y: 536
+        width: 330
+        height: 807
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76aba6d57c0e1c8c0800000000000000
+      internalID: -3980653448748418457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playe_death_sheet_big_32
+      rect:
+        serializedVersion: 2
+        x: 10846
+        y: 536
+        width: 311
+        height: 807
+      alignment: 9
+      pivot: {x: 0.5111441, y: -0.07015721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9502cafa9049a54b0800000000000000
+      internalID: -5450881629655654311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8cb84c844d411ae49ad584aee20d5295
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      playe_death_sheet_big_0: 6730255854650328090
+      playe_death_sheet_big_1: 8662815454598809194
+      playe_death_sheet_big_10: -4423703215617224547
+      playe_death_sheet_big_11: -3481827958883553444
+      playe_death_sheet_big_12: -4646203851877756729
+      playe_death_sheet_big_13: -8807550932586755778
+      playe_death_sheet_big_14: -6042133246319227898
+      playe_death_sheet_big_15: 6090287195857862484
+      playe_death_sheet_big_16: -2780866652598732343
+      playe_death_sheet_big_17: 4914206550175507400
+      playe_death_sheet_big_18: -2862282533939609421
+      playe_death_sheet_big_19: -2282277811772156145
+      playe_death_sheet_big_2: -4640126484475102909
+      playe_death_sheet_big_20: -5798904333413866876
+      playe_death_sheet_big_21: 8448684427267140130
+      playe_death_sheet_big_22: 8013273150044141810
+      playe_death_sheet_big_23: 6104618476874302533
+      playe_death_sheet_big_24: 5449431910385047675
+      playe_death_sheet_big_25: -4642750491051028355
+      playe_death_sheet_big_26: -3980653448748418457
+      playe_death_sheet_big_27: -6529627687672372231
+      playe_death_sheet_big_28: -2108106019468427912
+      playe_death_sheet_big_29: -8252507792235738349
+      playe_death_sheet_big_3: -1926117934617443158
+      playe_death_sheet_big_30: 6295039739306714620
+      playe_death_sheet_big_31: -6885235584708511401
+      playe_death_sheet_big_32: -5450881629655654311
+      playe_death_sheet_big_4: -4356027336808289778
+      playe_death_sheet_big_5: -7044247146241777689
+      playe_death_sheet_big_6: -7133839629969223893
+      playe_death_sheet_big_7: 5663461101321187356
+      playe_death_sheet_big_8: 231366346029509674
+      playe_death_sheet_big_9: 671214468895271800
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

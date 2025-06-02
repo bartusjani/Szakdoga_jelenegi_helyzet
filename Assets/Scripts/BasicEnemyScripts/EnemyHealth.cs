@@ -25,6 +25,7 @@ public class EnemyHealth : MonoBehaviour
     public Transform bossRoomTarget;
     public GameObject bossHpBarPhase2;
     public EnemyHpBar bossPhase2;
+    Animator animator;
 
     public int Health
     {
@@ -34,6 +35,7 @@ public class EnemyHealth : MonoBehaviour
 
     void Start()
     {
+        animator = GetComponent<Animator>();
         health = maxHealth;
         hpBar.SetMaxHealth(maxHealth);
     }
@@ -87,7 +89,7 @@ public class EnemyHealth : MonoBehaviour
         hpBar.setHealth(health);
         if (health <= 0)
         {
-            Die(0f);
+            Die(1f);
         }
 
     }
@@ -102,10 +104,23 @@ public class EnemyHealth : MonoBehaviour
             bossTrigger.SetActive(true);
             libraryTeleport.SetActive(true);
             bossHpBarPhase2.SetActive(false);
+            animator.SetTrigger("isDead");
             isBossDead = true;
         }
         if (time> 0)
         {
+            if (isScorpion)
+            {
+                animator.SetTrigger("isDead");
+            }
+            if (isStaticEnemy)
+            {
+                animator.SetTrigger("isDead");
+            }
+            if (isHuman)
+            {
+                animator.SetTrigger("isDead");
+            }
             Destroy(gameObject, time);
         }
         else

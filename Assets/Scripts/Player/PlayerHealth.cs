@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
@@ -15,9 +16,11 @@ public class PlayerHealth : MonoBehaviour
 
     public GameObject respawnScreen;
     public Button respawnButton;
+    Animator animator;
 
     void Start()
     {
+        animator = GetComponent<Animator>();
         died = false;
         health = maxHealth;
         healthbar.SetMaxHealth(maxHealth);
@@ -38,12 +41,15 @@ public class PlayerHealth : MonoBehaviour
         }
         health -= damage;
         healthbar.setHealth(health);
-        if (health <= 0) Die();
+        if (health <= 0) StartCoroutine(Die());
     }
-    public void Die()
+    
+    public IEnumerator Die()
     {
 
         died = true;
+        animator.SetTrigger("isDead");
+        yield return new WaitForSeconds(0.8f);
         respawnScreen.SetActive(true);
         Time.timeScale = 0f;
 
