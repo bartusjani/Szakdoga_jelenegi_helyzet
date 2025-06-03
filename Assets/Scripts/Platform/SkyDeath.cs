@@ -9,7 +9,7 @@ public class SkyDeath : MonoBehaviour
             PlayerHealth playerHealth = collision.GetComponent<PlayerHealth>();
             if (playerHealth != null)
             {
-                playerHealth.Die();
+                StartCoroutine(playerHealth.Die());
             }
         }
     }

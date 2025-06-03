@@ -135,11 +135,7 @@ public class EnemyHealth : MonoBehaviour
     }
 
  
-    public void PlayScorpionSound()
-    {
-        AudioManager.instance.PlaySound(deathClip, transform, 1f);
-    }
-    public void PlayStaticEnemySound()
+    public void PlayDeathSound()
     {
         AudioManager.instance.PlaySound(deathClip, transform, 1f);
     }

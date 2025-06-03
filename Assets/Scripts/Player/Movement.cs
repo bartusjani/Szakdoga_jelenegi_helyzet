@@ -27,6 +27,8 @@ public class Movement : MonoBehaviour
     [SerializeField] public Rigidbody2D rb;
     [SerializeField] public Transform groundCheck;
     [SerializeField] public LayerMask groundLayer;
+    [SerializeField] public LayerMask enemyLayer;
+    [SerializeField] private float enemySlideForce = 10f;
     [SerializeField] private AudioClip[] walkClip;
 
     [SerializeField] private AudioClip dashClip;
@@ -47,7 +49,7 @@ public class Movement : MonoBehaviour
 
     void Update()
     {
-
+        CheckEnemyBelow();
         if (isDashing)
         {
             return;
@@ -107,6 +109,7 @@ public class Movement : MonoBehaviour
 
     public bool IsGrounded()
     {
+        //Debug.Log(Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer));
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
     }
     private void Run()
@@ -153,6 +156,25 @@ public class Movement : MonoBehaviour
         animator.SetBool("isJumping", false);
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;
+    }
+    private void CheckEnemyBelow()
+    {
+
+        Vector2 origin = groundCheck != null ? groundCheck.position : (Vector2)transform.position;
+        float rayLength = 0.2f;
+
+        RaycastHit2D hit = Physics2D.Raycast(origin, Vector2.down, rayLength, enemyLayer);
+
+        if (hit.collider != null && rb.linearVelocity.y <= 0f)
+        {
+            float slideDir = rb.linearVelocity.x != 0 ? Mathf.Sign(rb.linearVelocity.x) : (isFacingRight ? 1 : -1);
+
+
+            Vector2 slideForce = new Vector2(slideDir * 600000000f, 1000f);
+            rb.AddForce(slideForce, ForceMode2D.Impulse);
+
+            Debug.Log("Csúszik az enemy-rõl le, irány: " + slideDir);
+        }
     }
 
 

@@ -37,7 +37,7 @@ public class InventoryPage : MonoBehaviour
         }
 
         
-        gameMenu.SetActive(false);
+        //gameMenu.SetActive(false);
         pauseMenu.SetActive(false);
         itemPrefab.ResetDesc();
         itemDesc.ResetDesc();
@@ -59,6 +59,7 @@ public class InventoryPage : MonoBehaviour
     {
         openedFromPause = fromPause;
 
+       
         gameMenu.SetActive(true);
         pauseMenu.SetActive(false);
         gameObject.SetActive(true);

@@ -39,6 +39,8 @@ public class MiniBossAttacks : MonoBehaviour
 
     //bool attack = false;
 
+    [SerializeField] private AudioClip[] attackClips;
+
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -260,6 +262,24 @@ public class MiniBossAttacks : MonoBehaviour
         
         Collider2D player = Physics2D.OverlapCircle(slashAttackPoint.position,attackRange, playerLayer);
         return player != null;
+    }
+
+
+    public void PlayQuickSound()
+    {
+        AudioManager.instance.PlaySound(attackClips[0], transform, 1f);
+    }
+    public void PlayStrongSound()
+    {
+        AudioManager.instance.PlaySound(attackClips[1], transform, 1f);
+    }
+    public void PlayDashSound()
+    {
+        AudioManager.instance.PlaySound(attackClips[2], transform, 1f);
+    }
+    public void PlayAreaSound()
+    {
+        AudioManager.instance.PlaySound(attackClips[3], transform, 1f);
     }
 
     private void OnDrawGizmosSelected()

@@ -16,6 +16,10 @@ public class MovementHuman : MonoBehaviour
     HumanAttacks ha;
     Animator animator;
 
+    [SerializeField] private AudioClip[] walkClips;
+    private float footstepTimer=0f;
+    private float footstepInterval=0.5f;
+
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -39,6 +43,20 @@ public class MovementHuman : MonoBehaviour
         else
         {
             animator.SetBool("Walk", false);
+        }
+
+        if (Mathf.Abs(moveDir.x) > 0.1f)
+        {
+            footstepTimer += Time.deltaTime;
+            if (footstepTimer >= footstepInterval)
+            {
+                AudioManager.instance.PlayRandomSound(walkClips, transform, 1f);
+                footstepTimer = 0f;
+            }
+        }
+        else
+        {
+            footstepTimer = 0f;
         }
     }
 
