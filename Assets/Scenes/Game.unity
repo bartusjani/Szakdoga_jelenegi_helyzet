@@ -29603,6 +29603,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 5dce5d77d61c0e4418728816133cc120, type: 3}
   - {fileID: 8300000, guid: ad11871d55d7e1a439a5fb0e8778f3ac, type: 3}
   dashClip: {fileID: 8300000, guid: 47a8f8cbe9757614db210a1c491ac709, type: 3}
+  jumpClip: {fileID: 8300000, guid: d1130b58dcc893442ab65bf5858d750e, type: 3}
 --- !u!50 &793944884
 Rigidbody2D:
   serializedVersion: 5
@@ -29706,6 +29707,7 @@ MonoBehaviour:
   isBlocking: 0
   respawnScreen: {fileID: 707311349}
   respawnButton: {fileID: 610507871}
+  deathClip: {fileID: 0}
 --- !u!95 &793944888
 Animator:
   serializedVersion: 7
@@ -29745,6 +29747,12 @@ MonoBehaviour:
   areaAttackPoint: {fileID: 1242142370}
   movement: {fileID: 793944883}
   shield: {fileID: 2107940935}
+  attackClips:
+  - {fileID: 8300000, guid: 607df4f84112cf84b984eeb7e8663613, type: 3}
+  - {fileID: 8300000, guid: eff22426d61cd36458d1ed2493f58e55, type: 3}
+  - {fileID: 8300000, guid: 4dec868c9a552844cb91ef1682708f22, type: 3}
+  - {fileID: 8300000, guid: dbd1bb00613385c4e8668998b25e3ba9, type: 3}
+  - {fileID: 8300000, guid: 36b84f18497c6394fb61470597a5d845, type: 3}
   damage: 10
   strongDamage: 15
   areaDamage: 170

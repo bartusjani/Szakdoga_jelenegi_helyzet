@@ -154,7 +154,8 @@ public class PlayerAttack : MonoBehaviour
         shield.SetActive(true);
 
         animator.SetBool("isBlocking", isBlocking);
-        AudioManager.instance.PlaySound(attackClips[0], transform, 1f);
+        //yield return new WaitForSeconds(0.3f);
+        //AudioManager.instance.PlaySound(attackClips[0], transform, 1f);
         yield return new WaitForSeconds(1.1f);
 
         shield.SetActive(false);
@@ -171,8 +172,9 @@ public class PlayerAttack : MonoBehaviour
         isAttacking = true;
         Debug.Log("quick attack");
 
-        AudioManager.instance.PlaySound(attackClips[1], transform, 1f);
         animator.SetTrigger("isAttacking");
+        //yield return new WaitForSeconds(0.3f);
+        //AudioManager.instance.PlaySound(attackClips[1], transform, 1f);
         yield return new WaitForSeconds(0.8f);
 
         DealDamage(attackPoint, attackRange, damage);
@@ -187,7 +189,8 @@ public class PlayerAttack : MonoBehaviour
         Debug.Log("strong attack");
 
         animator.SetTrigger("isStrongAt");
-        AudioManager.instance.PlaySound(attackClips[3], transform, 1f);
+        //yield return new WaitForSeconds(0.3f);
+        //AudioManager.instance.PlaySound(attackClips[3], transform, 1f);
         yield return new WaitForSeconds(0.8f);
 
         DealDamage(attackPoint, attackRange, strongDamage);
@@ -200,8 +203,9 @@ public class PlayerAttack : MonoBehaviour
         isAttacking = true;
         Debug.Log("quick combo attack");
 
-        AudioManager.instance.PlaySound(attackClips[2], transform, 1f);
         animator.SetTrigger("isComboAt");
+        //yield return new WaitForSeconds(0.3f);
+        //AudioManager.instance.PlaySound(attackClips[2], transform, 1f);
         yield return new WaitForSeconds(1f);
 
         DealDamage(attackPoint, attackRange, damage + damage);
@@ -215,7 +219,7 @@ public class PlayerAttack : MonoBehaviour
         Debug.Log("jump attack");
 
         animator.SetTrigger("isAttacking");
-        AudioManager.instance.PlaySound(attackClips[1], transform, 1f);
+        //AudioManager.instance.PlaySound(attackClips[1], transform, 1f);
         yield return new WaitForSeconds(1f);
         DealDamage(jumpAttackPoint, attackRange, damage);
 
@@ -230,7 +234,7 @@ public class PlayerAttack : MonoBehaviour
 
         float attackDur =1.01f;
 
-        AudioManager.instance.PlaySound(attackClips[4], transform, 1f);
+        //AudioManager.instance.PlaySound(attackClips[4], transform, 1f);
         yield return new WaitForSeconds(attackDur);
 
         DealDamage(areaAttackPoint, areaAttackRange, areaDamage);
@@ -240,6 +244,25 @@ public class PlayerAttack : MonoBehaviour
 
 
     }
+
+    public void PlayBlockSound()
+    {
+        AudioManager.instance.PlaySound(attackClips[0], transform, 1f);
+    }
+    public void PlayQuickSound()
+    {
+        AudioClip[] quicks = { attackClips[1], attackClips[2] };
+        AudioManager.instance.PlayRandomSound(quicks, transform, 1f);
+    }
+    public void PlayStrongSound()
+    {
+        AudioManager.instance.PlaySound(attackClips[3], transform, 1f);
+    }
+    public void PlayAreaSound()
+    {
+        AudioManager.instance.PlaySound(attackClips[4], transform, 1f);
+    }
+
 
     public void DealDamage(Transform attackPoint, float range, int damage)
     {
