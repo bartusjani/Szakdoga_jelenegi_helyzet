@@ -8,10 +8,10 @@ public class PauseMenu : MonoBehaviour
     public bool isOptionsOpened = false;
 
     public GameObject pauseMenuUI;
-    public GameObject hpUI;
     public GameObject inGameMenu;
     public GameObject player;
     public GameObject settingsMenu;
+    public GameObject optionsMenu;
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape) && !isOptionsOpened)
@@ -33,7 +33,6 @@ public class PauseMenu : MonoBehaviour
         isOptionsOpened = false;
         inGameMenu.SetActive(true);
         pauseMenuUI.SetActive(false);
-        hpUI.SetActive(true);
         Time.timeScale = 1f;
         isGamePaused = false;
 
@@ -42,7 +41,6 @@ public class PauseMenu : MonoBehaviour
     void Pause()
     {
         inGameMenu.SetActive(false);
-        hpUI.SetActive(false);
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         isGamePaused = true;
@@ -53,6 +51,7 @@ public class PauseMenu : MonoBehaviour
         isOptionsOpened = true;
         pauseMenuUI.SetActive(false);
         settingsMenu.SetActive(true);
+        optionsMenu.SetActive(true);
     }
 
     public void QuitGame()
