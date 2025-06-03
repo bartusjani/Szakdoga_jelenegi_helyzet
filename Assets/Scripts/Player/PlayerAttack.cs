@@ -13,6 +13,8 @@ public class PlayerAttack : MonoBehaviour
     public GameObject shield;
     Animator animator;
 
+    [SerializeField] private AudioClip[] attackClips;
+
     public int damage=10;
     public int strongDamage = 15;
     public int areaDamage = 10;
@@ -152,7 +154,7 @@ public class PlayerAttack : MonoBehaviour
         shield.SetActive(true);
 
         animator.SetBool("isBlocking", isBlocking);
-
+        AudioManager.instance.PlaySound(attackClips[0], transform, 1f);
         yield return new WaitForSeconds(1.1f);
 
         shield.SetActive(false);
@@ -169,6 +171,7 @@ public class PlayerAttack : MonoBehaviour
         isAttacking = true;
         Debug.Log("quick attack");
 
+        AudioManager.instance.PlaySound(attackClips[1], transform, 1f);
         animator.SetTrigger("isAttacking");
         yield return new WaitForSeconds(0.8f);
 
@@ -184,7 +187,7 @@ public class PlayerAttack : MonoBehaviour
         Debug.Log("strong attack");
 
         animator.SetTrigger("isStrongAt");
-
+        AudioManager.instance.PlaySound(attackClips[3], transform, 1f);
         yield return new WaitForSeconds(0.8f);
 
         DealDamage(attackPoint, attackRange, strongDamage);
@@ -197,6 +200,7 @@ public class PlayerAttack : MonoBehaviour
         isAttacking = true;
         Debug.Log("quick combo attack");
 
+        AudioManager.instance.PlaySound(attackClips[2], transform, 1f);
         animator.SetTrigger("isComboAt");
         yield return new WaitForSeconds(1f);
 
@@ -211,7 +215,7 @@ public class PlayerAttack : MonoBehaviour
         Debug.Log("jump attack");
 
         animator.SetTrigger("isAttacking");
-
+        AudioManager.instance.PlaySound(attackClips[1], transform, 1f);
         yield return new WaitForSeconds(1f);
         DealDamage(jumpAttackPoint, attackRange, damage);
 
@@ -226,7 +230,7 @@ public class PlayerAttack : MonoBehaviour
 
         float attackDur =1.01f;
 
-
+        AudioManager.instance.PlaySound(attackClips[4], transform, 1f);
         yield return new WaitForSeconds(attackDur);
 
         DealDamage(areaAttackPoint, areaAttackRange, areaDamage);

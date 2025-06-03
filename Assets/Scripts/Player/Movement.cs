@@ -29,6 +29,9 @@ public class Movement : MonoBehaviour
     [SerializeField] public LayerMask groundLayer;
     [SerializeField] private AudioClip[] walkClip;
 
+    [SerializeField] private AudioClip dashClip;
+    [SerializeField] private AudioClip jumpClip;
+
     float runStamina = 10f;
     float dashStamina = 20f;
 
@@ -60,6 +63,7 @@ public class Movement : MonoBehaviour
             
 
             animator.SetBool("isJumping",true);
+            AudioManager.instance.PlaySound(jumpClip, transform, 1f);
         }
         else
         {
@@ -117,6 +121,7 @@ public class Movement : MonoBehaviour
         canDash = false;
         isDashing = true;
         playerStamina.TakeStamina(10);
+        AudioManager.instance.PlaySound(dashClip, transform, 1f);
         float originalGravity = rb.gravityScale;
         rb.gravityScale = 0f;
         rb.linearVelocity = new Vector2(transform.localScale.x * dashingPower, 0f);
@@ -173,7 +178,7 @@ public class Movement : MonoBehaviour
             if (footstepTimer >= footstepInterval)
             {
                 
-                AudioManager.instance.PlayRandomSound(walkClip,transform,0.9f);
+                AudioManager.instance.PlayRandomSound(walkClip,transform,1f);
                 footstepTimer = 0f;
             }
         }
