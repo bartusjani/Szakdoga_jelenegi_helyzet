@@ -25,6 +25,8 @@ public class ScorpionAttacks : MonoBehaviour
 
     private float nextAttack = 0f;
 
+    [SerializeField] private AudioClip[] attackClips;
+
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -99,6 +101,19 @@ public class ScorpionAttacks : MonoBehaviour
         isBlocking = false;
         animator.SetBool("isBlocking", isBlocking);
         yield return new WaitForSeconds(blockCooldown);
+    }
+
+    public void PlayQuickSound()
+    {
+        AudioManager.instance.PlaySound(attackClips[0], transform, 1f);
+    }
+    public void PlayStrongSound()
+    {
+        AudioManager.instance.PlaySound(attackClips[2], transform, 1f);
+    }
+    public void PlayBlockSound()
+    {
+        AudioManager.instance.PlaySound(attackClips[1], transform, 1f);
     }
 
     void DealDamage(int damage)

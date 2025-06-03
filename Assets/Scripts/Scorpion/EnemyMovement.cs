@@ -1,5 +1,6 @@
 using Unity.Mathematics;
 using UnityEngine;
+using static UnityEditor.Searcher.SearcherWindow.Alignment;
 
 public class EnemyMovement : MonoBehaviour
 {
@@ -22,6 +23,9 @@ public class EnemyMovement : MonoBehaviour
     RaycastHit2D groundInfo;
     bool facingRight = true;
 
+    [SerializeField] private AudioClip[] walkClips;
+    private float footstepTimer=0f;
+    private float footstepInterval=0.5f;
 
     private void Start()
     {
@@ -69,6 +73,20 @@ public class EnemyMovement : MonoBehaviour
     {
         groundInfo = Physics2D.Raycast(groundCheck.position, Vector2.down, 2f);
         if (rb.linearVelocity.y == 0) rb.linearVelocity = moveDir * speed;
+
+        if (Mathf.Abs(rb.linearVelocity.x) > 0.1f)
+        {
+            footstepTimer += Time.fixedDeltaTime;
+            if (footstepTimer >= footstepInterval)
+            {
+                AudioManager.instance.PlayRandomSound(walkClips, transform, 1f);
+                footstepTimer = 0f;
+            }
+        }
+        else
+        {
+            footstepTimer = 0f;
+        }
     }
     public void Patroling()
     {
@@ -130,5 +148,10 @@ public class EnemyMovement : MonoBehaviour
         Vector3 newS = transform.localScale;
         newS.x *= -1;
         transform.localScale = newS;
+    }
+
+    public void PlayWalkSound()
+    {
+        AudioManager.instance.PlayRandomSound(walkClips, transform, 1f);
     }
 }

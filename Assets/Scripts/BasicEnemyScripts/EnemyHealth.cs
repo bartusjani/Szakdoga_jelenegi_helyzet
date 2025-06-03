@@ -27,6 +27,8 @@ public class EnemyHealth : MonoBehaviour
     public EnemyHpBar bossPhase2;
     Animator animator;
 
+    [SerializeField] private AudioClip[] deathClips;
+
     public int Health
     {
         get { return health; }
@@ -129,5 +131,9 @@ public class EnemyHealth : MonoBehaviour
         }
     }
 
-    
+ 
+    public void PlayScorpionSound()
+    {
+        AudioManager.instance.PlaySound(deathClips[0], transform, 1f);
+    }
 }
