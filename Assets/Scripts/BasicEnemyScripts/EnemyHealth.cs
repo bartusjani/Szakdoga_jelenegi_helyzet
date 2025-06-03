@@ -27,7 +27,7 @@ public class EnemyHealth : MonoBehaviour
     public EnemyHpBar bossPhase2;
     Animator animator;
 
-    [SerializeField] private AudioClip[] deathClips;
+    [SerializeField] private AudioClip deathClip;
 
     public int Health
     {
@@ -71,12 +71,15 @@ public class EnemyHealth : MonoBehaviour
             hpBar.setHealth(health);
             if (health <= 0)
             {
-                Die(1.2f);
+                //Die(1.2f);
                 isStaticDead = true;
                 wp.SetTarget(bossRoomTarget);
             }
         }
-        health -= damage;
+        else
+        {
+            health -= damage;
+        }
 
 
         if (isBoss && health <= 150 && bossHpBar.activeSelf)
@@ -134,6 +137,10 @@ public class EnemyHealth : MonoBehaviour
  
     public void PlayScorpionSound()
     {
-        AudioManager.instance.PlaySound(deathClips[0], transform, 1f);
+        AudioManager.instance.PlaySound(deathClip, transform, 1f);
+    }
+    public void PlayStaticEnemySound()
+    {
+        AudioManager.instance.PlaySound(deathClip, transform, 1f);
     }
 }

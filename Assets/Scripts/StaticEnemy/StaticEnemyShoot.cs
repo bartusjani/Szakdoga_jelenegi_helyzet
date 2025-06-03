@@ -15,6 +15,9 @@ public class EnemyShoot : MonoBehaviour
     private bool canShoot = true;
     private Transform player;
 
+    [SerializeField] private AudioClip attackClip;
+    [SerializeField] private AudioClip[] sounds;
+
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player")?.transform;
@@ -60,7 +63,13 @@ public class EnemyShoot : MonoBehaviour
     {
         canShoot = false;
         Bullet.blockedBullets = 0;
+        AudioManager.instance.PlayRandomSound(sounds, transform, 1f);
         yield return new WaitForSeconds(3f);
         canShoot = true;
+    }
+
+    public void PlaySpitSound()
+    {
+        AudioManager.instance.PlaySound(attackClip, transform, 1f);
     }
 }

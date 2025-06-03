@@ -12,6 +12,8 @@ public class StaticEnemyPlaceChange : MonoBehaviour
 
     public EnemyHealth enemyHealth;
     public EnemyHpBar enemyHpBar;
+
+    [SerializeField] private AudioClip[] moveClips;
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -19,7 +21,7 @@ public class StaticEnemyPlaceChange : MonoBehaviour
 
     private void Update()
     {
-        if (isDying && enemyHealth.Health <= 0)
+        if (isDying && enemyHealth.Health <= 0 && currWayPointIndex>=waypoints.Length)
         {
             StopAllCoroutines();
             StartCoroutine(Died());
@@ -40,7 +42,7 @@ public class StaticEnemyPlaceChange : MonoBehaviour
 
     IEnumerator Died()
     {
-        animator.SetBool("isDead", true);
+        animator.SetTrigger("isDead");
 
         yield return new WaitForSeconds(1.3f);
         
@@ -68,4 +70,14 @@ public class StaticEnemyPlaceChange : MonoBehaviour
 
         animator.Play("static_enemy_spawn");
     }
+
+    public void PlayGoingDownSound()
+    {
+        AudioManager.instance.PlaySound(moveClips[0], transform, 1f);
+    }
+    public void PlayComingUpSound()
+    {
+        AudioManager.instance.PlaySound(moveClips[1], transform, 1f);
+    }
+
 }

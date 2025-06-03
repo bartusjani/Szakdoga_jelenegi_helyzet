@@ -4654,6 +4654,7 @@ MonoBehaviour:
   bossRoomTarget: {fileID: 372228649}
   bossHpBarPhase2: {fileID: 966055998}
   bossPhase2: {fileID: 966056000}
+  deathClip: {fileID: 0}
 --- !u!95 &199937874
 Animator:
   serializedVersion: 7
@@ -7212,6 +7213,9 @@ MonoBehaviour:
   isChasing: 0
   chaseDistance: 2
   stopDis: 2
+  walkClips:
+  - {fileID: 8300000, guid: cbd13a8a5163f0240ae0194f44f8bed6, type: 3}
+  - {fileID: 8300000, guid: b970ae4a630a5f748a684886fe10ca27, type: 3}
 --- !u!114 &296750854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7238,6 +7242,7 @@ MonoBehaviour:
   bossRoomTarget: {fileID: 0}
   bossHpBarPhase2: {fileID: 0}
   bossPhase2: {fileID: 0}
+  deathClip: {fileID: 8300000, guid: acbc8c79c294bdc45bb2f4f87c0be075, type: 3}
 --- !u!114 &296750855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7263,6 +7268,10 @@ MonoBehaviour:
   forwardSlashCooldown: 1.5
   isBlocking: 0
   blockCooldown: 2
+  attackClips:
+  - {fileID: 8300000, guid: cd7f3c37b10d6d646a21c049f539fddc, type: 3}
+  - {fileID: 8300000, guid: 4f3bf98811203224c93f281934346729, type: 3}
+  - {fileID: 8300000, guid: c29d7b6d94601c74e8378991e968cbb3, type: 3}
 --- !u!95 &296750856
 Animator:
   serializedVersion: 7
@@ -10955,10 +10964,6 @@ Transform:
   - {fileID: 1188183331}
   - {fileID: 1295717817}
   - {fileID: 1837389327}
-  - {fileID: 1951861051}
-  - {fileID: 899509663}
-  - {fileID: 748996714}
-  - {fileID: 706539920}
   m_Father: {fileID: 1437761661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &507627373
@@ -16455,8 +16460,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1045.5, y: 252}
-  m_SizeDelta: {x: 563.62, y: 122.637}
+  m_AnchoredPosition: {x: 981.9018, y: 279.8955}
+  m_SizeDelta: {x: 542.8187, y: 100.7277}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &610507871
 MonoBehaviour:
@@ -18714,37 +18719,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 703339106}
   m_CullTransparentMesh: 1
---- !u!1 &706539919
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 706539920}
-  m_Layer: 0
-  m_Name: PatrolPoint1WarRoom2
-  m_TagString: Untagged
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &706539920
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 706539919}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -72.91, y: 175.59, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 504514949}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &707311349
 GameObject:
   m_ObjectHideFlags: 0
@@ -18782,7 +18756,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -3.145691, y: 6.291626}
+  m_AnchoredPosition: {x: -3.145752, y: 6.291626}
   m_SizeDelta: {x: 33.0308, y: 12.5833}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &707311351
@@ -28053,7 +28027,7 @@ RectTransform:
   m_Father: {fileID: 1747909919}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: -0.02999878, y: 1.1099997}
   m_SizeDelta: {x: -13.79, y: -12.24}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -28443,37 +28417,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 747623308}
   m_CullTransparentMesh: 1
---- !u!1 &748996713
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 748996714}
-  m_Layer: 0
-  m_Name: PatrolPoint0WarRoom2
-  m_TagString: Untagged
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &748996714
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 748996713}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -87.68, y: 175.73, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 504514949}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &755405998
 GameObject:
   m_ObjectHideFlags: 0
@@ -29566,7 +29509,7 @@ Transform:
   m_GameObject: {fileID: 793944880}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.67, y: 10.91, z: 0}
+  m_LocalPosition: {x: -1.1, y: -19.84, z: 0}
   m_LocalScale: {x: 0.06702013, y: 0.06353308, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -29707,7 +29650,7 @@ MonoBehaviour:
   isBlocking: 0
   respawnScreen: {fileID: 707311349}
   respawnButton: {fileID: 610507871}
-  deathClip: {fileID: 0}
+  deathClip: {fileID: 8300000, guid: d602dcf9b26b20b42b2f116d3439679d, type: 3}
 --- !u!95 &793944888
 Animator:
   serializedVersion: 7
@@ -31536,37 +31479,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1 &899509662
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 899509663}
-  m_Layer: 0
-  m_Name: PatrolPoint1WarRoom
-  m_TagString: Untagged
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &899509663
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 899509662}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -92.14, y: 116.41, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 504514949}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &904947299
 GameObject:
   m_ObjectHideFlags: 0
@@ -34917,6 +34829,7 @@ MonoBehaviour:
   bossRoomTarget: {fileID: 0}
   bossHpBarPhase2: {fileID: 0}
   bossPhase2: {fileID: 0}
+  deathClip: {fileID: 8300000, guid: acbc8c79c294bdc45bb2f4f87c0be075, type: 3}
 --- !u!114 &1073589474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34942,6 +34855,10 @@ MonoBehaviour:
   forwardSlashCooldown: 1.5
   isBlocking: 0
   blockCooldown: 2
+  attackClips:
+  - {fileID: 8300000, guid: cd7f3c37b10d6d646a21c049f539fddc, type: 3}
+  - {fileID: 8300000, guid: 4f3bf98811203224c93f281934346729, type: 3}
+  - {fileID: 8300000, guid: c29d7b6d94601c74e8378991e968cbb3, type: 3}
 --- !u!114 &1073589475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34964,6 +34881,9 @@ MonoBehaviour:
   isChasing: 0
   chaseDistance: 2
   stopDis: 2
+  walkClips:
+  - {fileID: 8300000, guid: cbd13a8a5163f0240ae0194f44f8bed6, type: 3}
+  - {fileID: 8300000, guid: b970ae4a630a5f748a684886fe10ca27, type: 3}
 --- !u!70 &1073589476
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -123399,6 +123319,7 @@ MonoBehaviour:
   bossRoomTarget: {fileID: 0}
   bossHpBarPhase2: {fileID: 0}
   bossPhase2: {fileID: 0}
+  deathClip: {fileID: 0}
 --- !u!114 &1390546566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125707,7 +125628,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1472826974
 Transform:
   m_ObjectHideFlags: 0
@@ -125841,6 +125762,10 @@ MonoBehaviour:
   bulletPrefab: {fileID: 1483044448562208203, guid: 6db46318ba3f26d4098a786b9dfbeff2, type: 3}
   firepoint: {fileID: 1862017477}
   fireRate: 1
+  attackClip: {fileID: 8300000, guid: d51024036922f5e4bae52f013ea8b890, type: 3}
+  sounds:
+  - {fileID: 8300000, guid: cb50851f5a540154e8af8503aa18e1bc, type: 3}
+  - {fileID: 8300000, guid: 0d1dc3107fa2d414b8313c0e05d14253, type: 3}
 --- !u!114 &1472826979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125867,6 +125792,7 @@ MonoBehaviour:
   bossRoomTarget: {fileID: 372228649}
   bossHpBarPhase2: {fileID: 0}
   bossPhase2: {fileID: 0}
+  deathClip: {fileID: 8300000, guid: e90edf4b1863f844592a78dde0830e0b, type: 3}
 --- !u!114 &1472826980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125884,6 +125810,9 @@ MonoBehaviour:
   - {fileID: 562070589}
   enemyHealth: {fileID: 1472826979}
   enemyHpBar: {fileID: 1747909922}
+  moveClips:
+  - {fileID: 8300000, guid: c44505c45776ce044ab2eb5c3c2c8434, type: 3}
+  - {fileID: 8300000, guid: 8b1e20ec256a72c459c7480159f03da7, type: 3}
 --- !u!95 &1472826981
 Animator:
   serializedVersion: 7
@@ -128110,6 +128039,7 @@ MonoBehaviour:
   bossRoomTarget: {fileID: 0}
   bossHpBarPhase2: {fileID: 0}
   bossPhase2: {fileID: 0}
+  deathClip: {fileID: 0}
 --- !u!114 &1574709406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133786,7 +133716,7 @@ Transform:
   m_GameObject: {fileID: 1837389326}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -35.96, y: -9.35, z: 0}
+  m_LocalPosition: {x: -35.5, y: -9.35, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -134598,8 +134528,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 69, y: -128}
-  m_SizeDelta: {x: 563.6481, y: 113.6837}
+  m_AnchoredPosition: {x: 5.4011, y: -129.8451}
+  m_SizeDelta: {x: 542.8458, y: 93.3739}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1873634234
 MonoBehaviour:
@@ -136494,37 +136424,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 199937863}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1951861050
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1951861051}
-  m_Layer: 0
-  m_Name: PatrolPoint0WarRoom
-  m_TagString: Untagged
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1951861051
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1951861050}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -78, y: 116.41, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 504514949}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1956007346
 GameObject:
