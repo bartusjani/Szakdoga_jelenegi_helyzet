@@ -1,6 +1,4 @@
-using Unity.Mathematics;
 using UnityEngine;
-using static UnityEditor.Searcher.SearcherWindow.Alignment;
 
 public class EnemyMovement : MonoBehaviour
 {
