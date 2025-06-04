@@ -6,6 +6,7 @@ public class SecondObjAndSpeechController : MonoBehaviour
     public ObjectiveBubble objPrefab;
     string objMessage;
 
+    [SerializeField] GameObject enemyMusic;
 
     public SpeechBubble speechPrefab;
     string speechMessage;
@@ -38,6 +39,7 @@ public class SecondObjAndSpeechController : MonoBehaviour
             bool allDead = enemyManager.GetComponent<GroundDoorTrigger>().allDead;
             if (allDead && !allScorpionDead)
             {
+                enemyMusic.SetActive(false);
                 PopUpCounter.Instance.secondTextIndex++;
                 RefreshBubbles();
                 StartCoroutine(SetObjAndSpeech(objectiveText, speechText));
