@@ -2060,8 +2060,6 @@ MonoBehaviour:
   isFading: 0
   faderImage: {fileID: 1468824687}
   teleportCooldown: 1.5
-  WarRoomScorpion1: {fileID: 0}
-  WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 0}
   tr: {fileID: 953931274}
   secondDoor: {fileID: 0}
@@ -3114,6 +3112,7 @@ Transform:
   - {fileID: 625126468}
   - {fileID: 1659516159}
   - {fileID: 1268515692}
+  - {fileID: 1075359756}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &145873119
@@ -4517,6 +4516,7 @@ GameObject:
   - component: {fileID: 199937871}
   - component: {fileID: 199937873}
   - component: {fileID: 199937875}
+  - component: {fileID: 199937876}
   - component: {fileID: 199937874}
   m_Layer: 7
   m_Name: Boss
@@ -4763,6 +4763,21 @@ CapsuleCollider2D:
   m_Offset: {x: 8.598822, y: -0.3463496}
   m_Size: {x: 26.72895, y: 24.385836}
   m_Direction: 1
+--- !u!114 &199937876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 199937862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1da13d56bbf90de45975ce2bcaf91a56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyMusic: {fileID: 1268515691}
+  backgroundMusic: {fileID: 1801104428}
+  secondBackgroundMusic: {fileID: 1075359754}
 --- !u!1 &200572781
 GameObject:
   m_ObjectHideFlags: 0
@@ -7267,7 +7282,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &296750846
 Transform:
   m_ObjectHideFlags: 0
@@ -8907,7 +8922,7 @@ RectTransform:
   m_Father: {fileID: 259908761}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.32, y: 1.15}
   m_SizeDelta: {x: -13.85, y: -12.81}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -16698,7 +16713,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 981.9018, y: 279.8955}
+  m_AnchoredPosition: {x: 976.5153, y: 420.25165}
   m_SizeDelta: {x: 542.8187, y: 100.7277}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &610507871
@@ -18637,13 +18652,14 @@ GameObject:
   m_Component:
   - component: {fileID: 686171100}
   - component: {fileID: 686171101}
+  - component: {fileID: 686171102}
   m_Layer: 9
   m_Name: Ceiling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &686171100
 Transform:
   m_ObjectHideFlags: 0
@@ -18705,6 +18721,21 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &686171102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 686171099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c9e36f7285fb55499f6408771bfaa9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allDead: 0
+  enemyMusic: {fileID: 1268515691}
+  secondMusic: {fileID: 1075359754}
 --- !u!1 &687064102
 GameObject:
   m_ObjectHideFlags: 0
@@ -29292,6 +29323,7 @@ GameObject:
   - component: {fileID: 779427917}
   - component: {fileID: 779427918}
   - component: {fileID: 779427919}
+  - component: {fileID: 779427920}
   m_Layer: 0
   m_Name: BossGroundDoorTrigger
   m_TagString: Untagged
@@ -29400,8 +29432,6 @@ MonoBehaviour:
   isFading: 0
   faderImage: {fileID: 1468824687}
   teleportCooldown: 1.5
-  WarRoomScorpion1: {fileID: 0}
-  WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 0}
   tr: {fileID: 953931274}
   secondDoor: {fileID: 0}
@@ -29455,6 +29485,20 @@ MonoBehaviour:
   wasSpeaking: 0
   isRoom: 0
   isSewer: 0
+--- !u!114 &779427920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779427912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 651a662d08bbbf34b9397c6a67b603a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyMusic: {fileID: 1268515691}
+  backgroundMusic: {fileID: 1801104428}
 --- !u!1 &784155697
 GameObject:
   m_ObjectHideFlags: 0
@@ -29771,7 +29815,7 @@ Transform:
   m_GameObject: {fileID: 793944880}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -33.728573, y: 1.271658, z: 0}
+  m_LocalPosition: {x: -104.72858, y: 73.27166, z: 0}
   m_LocalScale: {x: 0.06702013, y: 0.06353308, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -30545,7 +30589,7 @@ RectTransform:
   m_Father: {fileID: 389174459}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.32, y: 1.15}
   m_SizeDelta: {x: -13.85, y: -12.81}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -30643,8 +30687,6 @@ MonoBehaviour:
   isFading: 0
   faderImage: {fileID: 1468824687}
   teleportCooldown: 1.5
-  WarRoomScorpion1: {fileID: 0}
-  WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 0}
   tr: {fileID: 953931274}
   secondDoor: {fileID: 0}
@@ -30924,8 +30966,6 @@ MonoBehaviour:
   isFading: 0
   faderImage: {fileID: 1468824687}
   teleportCooldown: 1.5
-  WarRoomScorpion1: {fileID: 0}
-  WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 0}
   tr: {fileID: 953931274}
   secondDoor: {fileID: 0}
@@ -35057,7 +35097,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1073589471
 Transform:
   m_ObjectHideFlags: 0
@@ -35298,6 +35338,135 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1075359754
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1075359756}
+  - component: {fileID: 1075359755}
+  m_Layer: 0
+  m_Name: SecondMusic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1075359755
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075359754}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 2057001043536811196, guid: ae423f684fea16346ae62dba84a018d5, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 609fd38fc3515b8489e8696ec1fba4cf, type: 3}
+  m_Resource: {fileID: 8300000, guid: 609fd38fc3515b8489e8696ec1fba4cf, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1075359756
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075359754}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 144394403}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1085114751
 GameObject:
   m_ObjectHideFlags: 0
@@ -35756,8 +35925,6 @@ MonoBehaviour:
   isFading: 0
   faderImage: {fileID: 1468824687}
   teleportCooldown: 1.5
-  WarRoomScorpion1: {fileID: 0}
-  WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 0}
   tr: {fileID: 953931274}
   secondDoor: {fileID: 0}
@@ -38277,8 +38444,6 @@ MonoBehaviour:
   isFading: 0
   faderImage: {fileID: 1468824687}
   teleportCooldown: 1.5
-  WarRoomScorpion1: {fileID: 0}
-  WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 0}
   tr: {fileID: 953931274}
   secondDoor: {fileID: 0}
@@ -39264,8 +39429,6 @@ MonoBehaviour:
   isFading: 0
   faderImage: {fileID: 1468824687}
   teleportCooldown: 1.5
-  WarRoomScorpion1: {fileID: 0}
-  WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 0}
   tr: {fileID: 953931274}
   secondDoor: {fileID: 0}
@@ -40141,8 +40304,6 @@ MonoBehaviour:
   isFading: 0
   faderImage: {fileID: 1468824687}
   teleportCooldown: 1.5
-  WarRoomScorpion1: {fileID: 0}
-  WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 0}
   tr: {fileID: 953931274}
   secondDoor: {fileID: 0}
@@ -41291,8 +41452,6 @@ MonoBehaviour:
   isFading: 0
   faderImage: {fileID: 1468824687}
   teleportCooldown: 1.5
-  WarRoomScorpion1: {fileID: 0}
-  WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 0}
   tr: {fileID: 953931274}
   secondDoor: {fileID: 0}
@@ -123476,8 +123635,6 @@ MonoBehaviour:
   isFading: 0
   faderImage: {fileID: 1468824687}
   teleportCooldown: 1.5
-  WarRoomScorpion1: {fileID: 0}
-  WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 0}
   tr: {fileID: 953931274}
   secondDoor: {fileID: 0}
@@ -123574,11 +123731,11 @@ GameObject:
   - component: {fileID: 1390546567}
   m_Layer: 7
   m_Name: Human
-  m_TagString: Enemy
+  m_TagString: Human
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1390546559
 Transform:
   m_ObjectHideFlags: 0
@@ -123859,8 +124016,6 @@ MonoBehaviour:
   isFading: 0
   faderImage: {fileID: 1468824687}
   teleportCooldown: 1.5
-  WarRoomScorpion1: {fileID: 0}
-  WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 0}
   tr: {fileID: 953931274}
   secondDoor: {fileID: 0}
@@ -124581,8 +124736,6 @@ MonoBehaviour:
   isFading: 0
   faderImage: {fileID: 1468824687}
   teleportCooldown: 1.5
-  WarRoomScorpion1: {fileID: 0}
-  WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 1423417862}
   tr: {fileID: 953931274}
   secondDoor: {fileID: 1765251596}
@@ -125391,6 +125544,7 @@ GameObject:
   - component: {fileID: 1459019114}
   - component: {fileID: 1459019115}
   - component: {fileID: 1459019116}
+  - component: {fileID: 1459019117}
   m_Layer: 0
   m_Name: SecondDoor
   m_TagString: SecondDoor
@@ -125494,8 +125648,6 @@ MonoBehaviour:
   isFading: 0
   faderImage: {fileID: 1468824687}
   teleportCooldown: 1.5
-  WarRoomScorpion1: {fileID: 0}
-  WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 1423417862}
   tr: {fileID: 953931274}
   secondDoor: {fileID: 1459019108}
@@ -125549,6 +125701,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyMusic: {fileID: 1268515691}
   backgroundMusic: {fileID: 1801104428}
+--- !u!114 &1459019117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459019108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2783fd782d00f4b86f11df5cd4959c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy1: {fileID: 296750845}
+  enemy2: {fileID: 1073589470}
+  script: {fileID: 1423417860}
 --- !u!1 &1462537394
 GameObject:
   m_ObjectHideFlags: 0
@@ -126029,8 +126196,6 @@ MonoBehaviour:
   isFading: 0
   faderImage: {fileID: 1468824687}
   teleportCooldown: 1.5
-  WarRoomScorpion1: {fileID: 0}
-  WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 0}
   tr: {fileID: 953931274}
   secondDoor: {fileID: 1459019108}
@@ -126097,6 +126262,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyMusic: {fileID: 1268515691}
   backgroundMusic: {fileID: 1801104428}
+  secondBackgroundMusic: {fileID: 0}
 --- !u!1 &1472826973
 GameObject:
   m_ObjectHideFlags: 0
@@ -126303,6 +126469,8 @@ MonoBehaviour:
   moveClips:
   - {fileID: 8300000, guid: c44505c45776ce044ab2eb5c3c2c8434, type: 3}
   - {fileID: 8300000, guid: 8b1e20ec256a72c459c7480159f03da7, type: 3}
+  enemyMusic: {fileID: 1268515691}
+  backgroundMusic: {fileID: 1801104428}
 --- !u!95 &1472826981
 Animator:
   serializedVersion: 7
@@ -127397,7 +127565,7 @@ RectTransform:
   m_Father: {fileID: 1086577096}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.018997192, y: 1.15}
   m_SizeDelta: {x: -13.652, y: -11.74}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -127559,7 +127727,7 @@ RectTransform:
   m_Father: {fileID: 1842625617}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.04399872, y: 1.4400005}
   m_SizeDelta: {x: -13.608, y: -12.95}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -128458,11 +128626,11 @@ GameObject:
   - component: {fileID: 1574709404}
   m_Layer: 7
   m_Name: Human (1)
-  m_TagString: Enemy
+  m_TagString: Human
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1574709403
 Transform:
   m_ObjectHideFlags: 0
@@ -130652,8 +130820,6 @@ MonoBehaviour:
   isFading: 0
   faderImage: {fileID: 1468824687}
   teleportCooldown: 1.5
-  WarRoomScorpion1: {fileID: 0}
-  WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 0}
   tr: {fileID: 953931274}
   secondDoor: {fileID: 0}
@@ -130944,8 +131110,6 @@ MonoBehaviour:
   isFading: 0
   faderImage: {fileID: 1468824687}
   teleportCooldown: 1.5
-  WarRoomScorpion1: {fileID: 0}
-  WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 0}
   tr: {fileID: 953931274}
   secondDoor: {fileID: 0}
@@ -131448,8 +131612,6 @@ MonoBehaviour:
   isFading: 0
   faderImage: {fileID: 1468824687}
   teleportCooldown: 1.5
-  WarRoomScorpion1: {fileID: 0}
-  WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 0}
   tr: {fileID: 953931274}
   secondDoor: {fileID: 0}
@@ -132666,6 +132828,7 @@ GameObject:
   - component: {fileID: 1765251603}
   - component: {fileID: 1765251604}
   - component: {fileID: 1765251605}
+  - component: {fileID: 1765251606}
   m_Layer: 0
   m_Name: StaticEnemyTrigger
   m_TagString: BlockCollider
@@ -132768,8 +132931,6 @@ MonoBehaviour:
   isFading: 0
   faderImage: {fileID: 1468824687}
   teleportCooldown: 1.5
-  WarRoomScorpion1: {fileID: 0}
-  WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 0}
   tr: {fileID: 953931274}
   secondDoor: {fileID: 1470795832}
@@ -132852,6 +133013,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc90cfe4ceef07040b8311b27d41ea03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1765251606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1765251596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 651a662d08bbbf34b9397c6a67b603a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyMusic: {fileID: 1268515691}
+  backgroundMusic: {fileID: 1801104428}
 --- !u!1 &1777604163
 GameObject:
   m_ObjectHideFlags: 0
@@ -133509,7 +133684,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &1801104429
 AudioSource:
   m_ObjectHideFlags: 0
@@ -133525,7 +133700,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -134879,7 +135054,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objPrefab: {fileID: -7007988736051805242, guid: fa8846e8a1c83134db38290ddc9752bf, type: 3}
-  enemyMusic: {fileID: 0}
+  enemyMusic: {fileID: 1268515691}
   speechPrefab: {fileID: 3453286428051075319, guid: 7f2b58aa6743d5d47bea507c18af0318, type: 3}
   enemyManager: {fileID: 1423417860}
   enemyHealth: {fileID: 0}
@@ -135059,8 +135234,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.4011, y: -129.8451}
-  m_SizeDelta: {x: 542.8458, y: 93.3739}
+  m_AnchoredPosition: {x: 0.00004005432, y: -274.8847}
+  m_SizeDelta: {x: 596.8288, y: 100.73}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1873634234
 MonoBehaviour:
@@ -136066,8 +136241,6 @@ MonoBehaviour:
   isFading: 0
   faderImage: {fileID: 1468824687}
   teleportCooldown: 1.5
-  WarRoomScorpion1: {fileID: 0}
-  WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 0}
   tr: {fileID: 953931274}
   secondDoor: {fileID: 0}
@@ -138759,8 +138932,8 @@ Transform:
   m_GameObject: {fileID: 2043463840}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -68.3, y: -1.2, z: -0.2868374}
-  m_LocalScale: {x: 2065.321, y: 1296.4584, z: 1}
+  m_LocalPosition: {x: -68.3, y: -3.699997, z: -0.2868374}
+  m_LocalScale: {x: 2065.321, y: 1265.187, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -139372,6 +139545,8 @@ GameObject:
   - component: {fileID: 2067465942}
   - component: {fileID: 2067465941}
   - component: {fileID: 2067465940}
+  - component: {fileID: 2067465945}
+  - component: {fileID: 2067465944}
   m_Layer: 0
   m_Name: LibraryRoomTeleportFromOutside
   m_TagString: Untagged
@@ -139443,8 +139618,6 @@ MonoBehaviour:
   isFading: 0
   faderImage: {fileID: 1468824687}
   teleportCooldown: 1.5
-  WarRoomScorpion1: {fileID: 0}
-  WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 0}
   tr: {fileID: 953931274}
   secondDoor: {fileID: 0}
@@ -139495,6 +139668,35 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 4.07283, y: 2.5380025}
   m_EdgeRadius: 0
+--- !u!114 &2067465944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2067465938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2783fd782d00f4b86f11df5cd4959c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy1: {fileID: 1390546558}
+  enemy2: {fileID: 1574709402}
+  script: {fileID: 686171099}
+--- !u!114 &2067465945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2067465938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 651a662d08bbbf34b9397c6a67b603a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyMusic: {fileID: 1268515691}
+  backgroundMusic: {fileID: 1075359754}
 --- !u!1 &2089176193
 GameObject:
   m_ObjectHideFlags: 0

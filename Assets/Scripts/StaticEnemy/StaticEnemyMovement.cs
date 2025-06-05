@@ -14,6 +14,8 @@ public class StaticEnemyPlaceChange : MonoBehaviour
     public EnemyHpBar enemyHpBar;
 
     [SerializeField] private AudioClip[] moveClips;
+    [SerializeField] GameObject enemyMusic;
+    [SerializeField] GameObject backgroundMusic;
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -43,7 +45,8 @@ public class StaticEnemyPlaceChange : MonoBehaviour
     IEnumerator Died()
     {
         animator.SetTrigger("isDead");
-
+        enemyMusic.SetActive(false);
+        backgroundMusic.SetActive(true);
         yield return new WaitForSeconds(1.3f);
         
     }

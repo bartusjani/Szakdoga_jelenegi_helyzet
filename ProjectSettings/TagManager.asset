@@ -17,6 +17,7 @@ TagManager:
   - PlatformCollider
   - CombatCollider
   - BlockCollider
+  - Human
   layers:
   - Default
   - TransparentFX

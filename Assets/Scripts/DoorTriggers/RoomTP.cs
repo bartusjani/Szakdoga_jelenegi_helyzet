@@ -25,9 +25,6 @@ public class RoomTP : MonoBehaviour
     public float teleportCooldown = 1.5f;
     private float lastTeleportTime;
 
-
-    public GameObject WarRoomScorpion1;
-    public GameObject WarRoomScorpion2;
     public GroundDoorTrigger gd;
     public Trigger tr;
 
@@ -45,11 +42,6 @@ public class RoomTP : MonoBehaviour
     {
         if (isPlayerInTrigger)
         {
-            if (isResearchRoom)
-            {
-                WarRoomScorpion1.SetActive(true);
-                WarRoomScorpion2.SetActive(true);
-            }
             if (isBossRoom)
             {
                 if (Input.GetKeyDown(KeyCode.E) && EnemyHealth.isBossDead)

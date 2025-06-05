@@ -17,7 +17,6 @@ public class StaticTrigger : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player") 
         {
-
             statEnemy.SetActive(true);
             if(animator != null)
             {
