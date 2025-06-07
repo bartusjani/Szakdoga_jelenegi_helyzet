@@ -8810,7 +8810,7 @@ Transform:
   m_GameObject: {fileID: 372228648}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -97.17, y: -50.3, z: 0}
+  m_LocalPosition: {x: -115.17, y: -61.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -29944,7 +29944,7 @@ Transform:
   m_GameObject: {fileID: 793944880}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -83.72858, y: 92.27167, z: 0}
+  m_LocalPosition: {x: -107.67916, y: 1.6437683, z: 0}
   m_LocalScale: {x: 0.06702013, y: 0.06353308, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -126720,7 +126720,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1483044448562208203, guid: 6db46318ba3f26d4098a786b9dfbeff2, type: 3}
   firepoint: {fileID: 1862017477}
-  fireRate: 1
   attackClip: {fileID: 8300000, guid: d51024036922f5e4bae52f013ea8b890, type: 3}
   sounds:
   - {fileID: 8300000, guid: cb50851f5a540154e8af8503aa18e1bc, type: 3}

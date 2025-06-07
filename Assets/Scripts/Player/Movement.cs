@@ -154,23 +154,40 @@ public class Movement : MonoBehaviour
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;
     }
+    private bool wasOnEnemyLastFrame = false;
+
     private void CheckEnemyBelow()
     {
-
         Vector2 origin = groundCheck != null ? groundCheck.position : (Vector2)transform.position;
         float rayLength = 0.2f;
-
         RaycastHit2D hit = Physics2D.Raycast(origin, Vector2.down, rayLength, enemyLayer);
 
         if (hit.collider != null && rb.linearVelocity.y <= 0f)
         {
             float slideDir = rb.linearVelocity.x != 0 ? Mathf.Sign(rb.linearVelocity.x) : (isFacingRight ? 1 : -1);
+            Vector2 slideDirection = new Vector2(slideDir, 0f);
 
+            float slideForce = 1000f;
+            rb.AddForce(slideDirection * slideForce, ForceMode2D.Force);
 
-            Vector2 slideForce = new Vector2(slideDir * 600000000f, 1000f);
-            rb.AddForce(slideForce, ForceMode2D.Impulse);
+            if (!wasOnEnemyLastFrame)
+            {
+                Vector2 initialBoost = new Vector2(slideDir * 8f, 0f);
+                rb.AddForce(initialBoost, ForceMode2D.Impulse);
+            }
 
-            Debug.Log("Csúszik az enemy-rõl le, irány: " + slideDir);
+            float minSlideSpeed = 3f;
+            if (Mathf.Abs(rb.linearVelocity.x) < minSlideSpeed)
+            {
+                rb.linearVelocity = new Vector2(slideDir * minSlideSpeed, rb.linearVelocity.y);
+            }
+
+            wasOnEnemyLastFrame = true;
+            Debug.Log("Horizontal sliding: " + slideDir + " | Speed: " + rb.linearVelocity.x);
+        }
+        else
+        {
+            wasOnEnemyLastFrame = false;
         }
     }
 

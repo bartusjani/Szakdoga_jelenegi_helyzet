@@ -57,7 +57,7 @@ public class PlayerAttack : MonoBehaviour
             else if (Input.GetKeyDown(KeyCode.Mouse0) && !movement.IsGrounded())
             {
                 StartCoroutine(JumpAttack());
-                attackTime = Time.time + 1f / attackRate;
+                attackTime = Time.time + 0.5f / attackRate;
             }
             if (Input.GetMouseButtonDown(0) && movement.IsGrounded())
             {
@@ -73,7 +73,7 @@ public class PlayerAttack : MonoBehaviour
                 if (heldTime >= holdThreshold)
                 {
                     StartCoroutine(StrongAttack());
-                    attackTime = Time.time + 3f / attackRate;
+                    attackTime = Time.time + 1.5f / attackRate;
                     strongAttackStarted = true;
                 }
             }
@@ -100,7 +100,7 @@ public class PlayerAttack : MonoBehaviour
             else if (Input.GetKeyDown(KeyCode.Mouse1) && movement.IsGrounded())
             {
                 StartCoroutine(AreaAttack());
-                attackTime = Time.time + 1f / attackRate;
+                attackTime = Time.time + 0.5f / attackRate;
                 
             }
 
@@ -135,7 +135,7 @@ public class PlayerAttack : MonoBehaviour
         }
 
         LastAttackTime = Time.time;
-        attackTime = Time.time + 1f / attackRate;
+        attackTime = Time.time + 0.5f / attackRate;
     }
 
     private void OnDrawGizmosSelected()

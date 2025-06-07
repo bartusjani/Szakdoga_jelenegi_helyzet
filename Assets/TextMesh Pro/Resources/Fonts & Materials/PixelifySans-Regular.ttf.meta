@@ -4,14 +4,14 @@ TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
   fontSize: 16
-  forceTextureCase: -2
+  forceTextureCase: 3
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
   fontNames:
   - Pixelify Sans
   fallbackFontReferences: []
-  customCharacters: 
+  customCharacters: "\xE9\xE1\u0171\u0151\xFA\xF6\xFC\xF3\xED"
   fontRenderingMode: 0
   ascentCalculationMode: 1
   useLegacyBoundsCalculation: 0

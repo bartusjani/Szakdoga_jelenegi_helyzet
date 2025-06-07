@@ -12,9 +12,11 @@ public class PauseMenu : MonoBehaviour
     public GameObject player;
     public GameObject settingsMenu;
     public GameObject optionsMenu;
+
+    public PlayerHealth isPlayerDead;
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) && !isOptionsOpened)
+        if (Input.GetKeyDown(KeyCode.Escape) && !isOptionsOpened && !isPlayerDead.Died())
         {
             if (isGamePaused)
             {

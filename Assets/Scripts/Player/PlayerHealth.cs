@@ -11,7 +11,7 @@ public class PlayerHealth : MonoBehaviour
     public bool isBlocking = false;
 
     PlayerRespawn pr;
-    bool died;
+    [SerializeField]private bool died;
 
     public GameObject respawnScreen;
     public Button respawnButton;
@@ -56,6 +56,10 @@ public class PlayerHealth : MonoBehaviour
         respawnScreen.SetActive(true);
         Time.timeScale = 0f;
 
+    }
+    public bool Died()
+    {
+        return died;
     }
     public int GetHealth()
     {
