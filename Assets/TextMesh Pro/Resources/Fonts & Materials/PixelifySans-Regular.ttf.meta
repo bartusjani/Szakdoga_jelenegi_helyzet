@@ -11,7 +11,7 @@ TrueTypeFontImporter:
   fontNames:
   - Pixelify Sans
   fallbackFontReferences: []
-  customCharacters: "\xE9\xE1\u0171\u0151\xFA\xF6\xFC\xF3\xED"
+  customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
   useLegacyBoundsCalculation: 0

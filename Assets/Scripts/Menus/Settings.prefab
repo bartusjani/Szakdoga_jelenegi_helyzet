@@ -1635,8 +1635,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Bartus J\xE1nos\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1a67886ac8d9e0941b86dc7beac495fd, type: 2}
-  m_sharedMaterial: {fileID: 6774393383957303731, guid: 1a67886ac8d9e0941b86dc7beac495fd, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: cbaa9e4b9c13ddc41a6a79fb39952252, type: 2}
+  m_sharedMaterial: {fileID: 4868437820042004586, guid: cbaa9e4b9c13ddc41a6a79fb39952252, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3018,7 +3018,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 610.8038, y: 367.9148}
-  m_SizeDelta: {x: 415.5025, y: 92.5764}
+  m_SizeDelta: {x: 610.8038, y: 92.5764}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8173915976804985310
 CanvasRenderer:
@@ -7380,8 +7380,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "B\xE1r\xE1ny Norbert Farkas"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1a67886ac8d9e0941b86dc7beac495fd, type: 2}
-  m_sharedMaterial: {fileID: 6774393383957303731, guid: 1a67886ac8d9e0941b86dc7beac495fd, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: cbaa9e4b9c13ddc41a6a79fb39952252, type: 2}
+  m_sharedMaterial: {fileID: 4868437820042004586, guid: cbaa9e4b9c13ddc41a6a79fb39952252, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7806,7 +7806,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7082411211662746776
 Transform:
   m_ObjectHideFlags: 0
@@ -11362,8 +11362,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Troll Ede M\xE1ty\xE1s"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1a67886ac8d9e0941b86dc7beac495fd, type: 2}
-  m_sharedMaterial: {fileID: 6774393383957303731, guid: 1a67886ac8d9e0941b86dc7beac495fd, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: cbaa9e4b9c13ddc41a6a79fb39952252, type: 2}
+  m_sharedMaterial: {fileID: 4868437820042004586, guid: cbaa9e4b9c13ddc41a6a79fb39952252, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11797,7 +11797,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1532742389307819901}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.32858023
+  m_Size: 0.32858026
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -11869,8 +11869,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Gy\xF6ngy D\xE1niel"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1a67886ac8d9e0941b86dc7beac495fd, type: 2}
-  m_sharedMaterial: {fileID: 6774393383957303731, guid: 1a67886ac8d9e0941b86dc7beac495fd, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: cbaa9e4b9c13ddc41a6a79fb39952252, type: 2}
+  m_sharedMaterial: {fileID: 4868437820042004586, guid: cbaa9e4b9c13ddc41a6a79fb39952252, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

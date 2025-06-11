@@ -31,7 +31,7 @@ public class PlayerAttack : MonoBehaviour
     public LayerMask enemyLayers;
 
     public float attackRange = 0.5f;
-    public float areaAttackRange = 3f;
+    float areaAttackRange = 1.5f;
     float attackTime = 0f;
     public int attackRate = 2;
     bool isAttacking = false;
@@ -140,7 +140,7 @@ public class PlayerAttack : MonoBehaviour
 
     private void OnDrawGizmosSelected()
     {
-        Gizmos.color = Color.red;
+        Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
         Gizmos.DrawWireSphere(jumpAttackPoint.position, attackRange);
         Gizmos.DrawWireSphere(areaAttackPoint.position, areaAttackRange);
