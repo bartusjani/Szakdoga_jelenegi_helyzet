@@ -38,14 +38,15 @@ public class Trigger : MonoBehaviour
 
     public InventoryPage invPage;
     public Sprite itemImage;
-
+    string itemTitle = "Magic System";
+    string itemDesc = "This place was built by man using the power of the gods. Some people had the affinity for their magic. Favored by them. My people the Goldens were the best of the best. We had a deep understanding of the flow of energy they emited just by existing. But now I dont feel their toutch. Even my crystal that stored the power of Sa'hur from the stas is drained. What happened to them? I can still feel their magic around but faint. I need to get closer to light, that way I might be able to trap some power in my crystal so I can use it. So much time must have passed, this place looks like a ruin at this rate, all the glory and elegance is a thing of the past. I hate these memories, I should have died, yet I'm here...yet I am.";
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.E) && isPlayerInTrigger)
         {
             wasButtonPressed = true;
             itemAdder=gameObject.GetComponent<ItemAdder>();
-            itemAdder.AddItemToInv(invPage,itemImage,"title","description");
+            itemAdder.AddItemToInv(invPage,itemImage,itemTitle,itemDesc);
             interactText.SetActive(false);
             if (!wasSpeaking)
             {

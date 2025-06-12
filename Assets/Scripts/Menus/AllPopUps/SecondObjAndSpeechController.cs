@@ -27,7 +27,14 @@ public class SecondObjAndSpeechController : MonoBehaviour
 
     bool allScorpionDead = false;
     bool isSewer = false;
-    private void Update()
+
+    ItemAdder adder;
+    public InventoryPage inv;
+    public Sprite itemImg;
+    public string itemTitle = "";
+    public string itemDesc = "";
+
+   private void Update()
     {
         if (PopUpCounter.Instance.secondTextIndex != PopUpCounter.Instance.secondLastTextIndex)
         {
@@ -41,6 +48,10 @@ public class SecondObjAndSpeechController : MonoBehaviour
             {
                 enemyMusic.SetActive(false);
                 PopUpCounter.Instance.secondTextIndex++;
+
+                adder = GetComponent<ItemAdder>();
+                adder.AddItemToInv(inv,itemImg,itemTitle,itemDesc);
+
                 RefreshBubbles();
                 StartCoroutine(SetObjAndSpeech(objectiveText, speechText));
             }
@@ -51,6 +62,9 @@ public class SecondObjAndSpeechController : MonoBehaviour
             if (staticDead && !isSewer )
             {
                 PopUpCounter.Instance.secondTextIndex++;
+                Debug.Log("AAAAAAAAAAAA");
+                adder = GetComponent<ItemAdder>();
+                adder.AddItemToInv(inv, itemImg, itemTitle, itemDesc);
                 RefreshBubbles();
                 StartCoroutine(SetObjAndSpeech(objectiveText, speechText));
             }

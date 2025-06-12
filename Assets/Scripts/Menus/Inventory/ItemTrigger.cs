@@ -36,6 +36,7 @@ public class ItemTrigger : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             isPlayerInTrigger = true;
+            interactText.SetActive(true);
             InventoryPage invPage = collision.GetComponent<InventoryController>().invUI;
             playerInvPage = invPage;
         }
@@ -49,7 +50,7 @@ public class ItemTrigger : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            //interactText.SetActive(false);
+            interactText.SetActive(false);
             isPlayerInTrigger = false;
         }
         if (isItemAdded)

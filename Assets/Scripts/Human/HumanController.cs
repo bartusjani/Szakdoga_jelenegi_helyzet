@@ -10,8 +10,16 @@ public class HumanController : MonoBehaviour
     [SerializeField] GameObject enemyMusic;
     [SerializeField] GameObject secondMusic;
 
+
+    [SerializeField] Sprite itemIcon;
+    [SerializeField] string title;
+    [SerializeField] string desc;
+    [SerializeField] InventoryPage inv;
+
+    ItemAdder adder;
     private void Start()
     {
+        adder = GetComponent<ItemAdder>();
         StartCoroutine(CountHumansAfterDelay());
 
         Debug.Log(totalHumans);
@@ -24,6 +32,7 @@ public class HumanController : MonoBehaviour
 
         if (deadHumans >= totalHumans)
         {
+            adder.AddItemToInv(inv, itemIcon, title, desc);
             enemyMusic.SetActive(false);
             secondMusic.SetActive(true);
             this.enabled = false;
