@@ -9,6 +9,8 @@ public class PlayerHealth : MonoBehaviour
     public HealthBar healthbar;
     PlayerAttack pa;
     public bool isBlocking = false;
+    bool isFirstDeath = false;
+    public ItemAdder adder;
 
     PlayerRespawn pr;
     [SerializeField]private bool died;
@@ -18,6 +20,13 @@ public class PlayerHealth : MonoBehaviour
     Animator animator;
 
     [SerializeField] private AudioClip deathClip;
+
+    public InventoryPage inv;
+    public Sprite itemImg;
+    string itemName= "Respawn";
+    string itemDesc = "This is against the law of the gods. I should be dead. My journey changed me, I already knew... But even now it furiates me. No resting place for us damned. I shouldn't exist yet the mere concept of existing keeps us alive. The Entity.That's the name we call it now, by seeing it it lached onto us. Like a parasite. It has motive now, the thing that stayed with us. That's why we came back... The Goldens...now we are just the doom that's coming. Until we do our task we live on. This is no life, just a purpose. I hope it brings us peace once we are through with it. My mind is jumbled, are the others like me? Full of hate? Empty?\r\n";
+
+
 
 
     void Start()
@@ -48,7 +57,12 @@ public class PlayerHealth : MonoBehaviour
     
     public IEnumerator Die()
     {
-
+        if (!isFirstDeath)
+        {
+            adder.AddItemToInv(inv,itemImg,itemName,itemDesc);
+            isFirstDeath = true;
+        }
+        
         died = true;
         animator.SetTrigger("isDead");
         AudioManager.instance.PlaySound(deathClip, transform, 1f);

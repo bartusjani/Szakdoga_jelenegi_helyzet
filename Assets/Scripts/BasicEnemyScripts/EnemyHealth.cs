@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -126,11 +127,11 @@ public class EnemyHealth : MonoBehaviour
             {
                 animator.SetTrigger("isDead");
             }
-            Destroy(gameObject, time);
+            StartCoroutine(DieWithTime(gameObject, time));
         }
         else
         {
-            Destroy(gameObject);
+            DieWithoutTime(gameObject);
         }
     }
 
@@ -138,5 +139,16 @@ public class EnemyHealth : MonoBehaviour
     public void PlayDeathSound()
     {
         AudioManager.instance.PlaySound(deathClip, transform, 1f);
+    }
+
+    IEnumerator DieWithTime(GameObject enemy, float time)
+    {
+        yield return new WaitForSeconds(time);
+        enemy.SetActive(false);
+    }
+
+    void DieWithoutTime(GameObject enemy)
+    {
+        enemy.SetActive(false);
     }
 }
