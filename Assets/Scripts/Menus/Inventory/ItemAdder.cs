@@ -10,6 +10,7 @@ public class ItemAdder : MonoBehaviour
         {
             if (!item.itemIcon.gameObject.activeSelf)
             {
+                item.star.enabled = true;
                 item.SetItem(icon);
                 item.SetDesc(itemTitle, itemDesc);
                 break;

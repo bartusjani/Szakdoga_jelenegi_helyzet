@@ -6,11 +6,12 @@ using UnityEngine.UI;
 
 
 [System.Serializable]
-public class Item : MonoBehaviour
+public class Item : MonoBehaviour, IScrollHandler
 {
 
     [SerializeField]
     public Image itemIcon;
+    public Image star;
 
     [SerializeField]
     Image border;
@@ -22,8 +23,11 @@ public class Item : MonoBehaviour
     [SerializeField]
     public TMP_Text desc;
 
+    public ScrollRect parentScrollRect;
 
     public event Action<Item> OnItemClicked;
+
+
 
     
 
@@ -41,6 +45,7 @@ public class Item : MonoBehaviour
     public void Select()
     {
         border.enabled = true;
+        star.enabled = false;
     }
 
     public void Reset()
@@ -79,5 +84,10 @@ public class Item : MonoBehaviour
         {
             OnItemClicked?.Invoke(this);
         }
+    }
+
+    public void OnScroll(PointerEventData eventData)
+    {
+        parentScrollRect.OnScroll(eventData);
     }
 }

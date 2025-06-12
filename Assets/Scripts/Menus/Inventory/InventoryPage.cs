@@ -2,6 +2,7 @@ using NUnit.Framework;
 using UnityEngine;
 using System.Collections.Generic;
 using System;
+using UnityEngine.UI;
 
 public class InventoryPage : MonoBehaviour
 {
@@ -14,8 +15,11 @@ public class InventoryPage : MonoBehaviour
     ItemDescription itemDesc;
 
     public List<Item> items = new List<Item>();
+
+    public ScrollRect parentScrollRect;
     public GameObject pauseMenu;
     public GameObject gameMenu;
+    public GameObject button;
     private bool openedFromPause = false;
 
     public void IntializeInv(int size)
@@ -23,10 +27,14 @@ public class InventoryPage : MonoBehaviour
         for (int i = 0; i < size; i++)
         {
             Item item = Instantiate(itemPrefab, Vector3.zero, Quaternion.identity);
+            item.star.enabled = false;
             item.transform.SetParent(contentPanel);
             items.Add(item);
             item.OnItemClicked += HandleItemSelected;
+            item.parentScrollRect = parentScrollRect;
+            item.transform.localScale = Vector3.one;
         }
+        LayoutRebuilder.ForceRebuildLayoutImmediate(contentPanel.GetComponent<RectTransform>());
     }
 
     private void Awake()
@@ -63,6 +71,7 @@ public class InventoryPage : MonoBehaviour
         gameMenu.SetActive(true);
         pauseMenu.SetActive(false);
         gameObject.SetActive(true);
+        button.SetActive(true);
         itemPrefab.ResetDesc();
         itemDesc.ResetDesc();
 
@@ -81,6 +90,7 @@ public class InventoryPage : MonoBehaviour
             Time.timeScale = 1f;
         }
         gameObject.SetActive(false);
+        button.SetActive(false);
         foreach (var invItem in items)
         {
             invItem.Deselect();
