@@ -27,12 +27,18 @@ public class SecondObjAndSpeechController : MonoBehaviour
 
     bool allScorpionDead = false;
     bool isSewer = false;
+    bool isBossRoom = false;
 
     ItemAdder adder;
     public InventoryPage inv;
     public Sprite itemImg;
     public string itemTitle = "";
     public string itemDesc = "";
+
+    public int popUpIndex;
+    public int objIndex;
+    public int speechIndex;
+
 
    private void Update()
     {
@@ -61,10 +67,29 @@ public class SecondObjAndSpeechController : MonoBehaviour
             bool staticDead = enemyHealth.GetComponent<EnemyHealth>().isStaticDead;
             if (staticDead && !isSewer )
             {
+                enemyMusic.SetActive(false);
                 PopUpCounter.Instance.secondTextIndex++;
-                Debug.Log("AAAAAAAAAAAA");
-                adder = GetComponent<ItemAdder>();
-                adder.AddItemToInv(inv, itemImg, itemTitle, itemDesc);
+                if(inv!= null && itemImg!=null &&itemTitle!=null && itemDesc != null)
+                {
+                    adder = GetComponent<ItemAdder>();
+                    adder.AddItemToInv(inv, itemImg, itemTitle, itemDesc);
+                }
+
+                RefreshBubbles();
+                StartCoroutine(SetObjAndSpeech(objectiveText, speechText));
+            }
+            if (enemyHealth.GetComponent<EnemyHealth>().GetBossDeath() && !isBossRoom)
+            {
+                enemyMusic.SetActive(false);
+                Debug.Log("OBJEKTÍV INDEX HALO" + objIndex + "SPEECH" + speechIndex);
+                PopUpCounter.Instance.secondTextIndex++;
+
+                if (inv != null && itemImg != null && itemTitle != null && itemDesc != null)
+                {
+                    adder = GetComponent<ItemAdder>();
+                    adder.AddItemToInv(inv, itemImg, itemTitle, itemDesc);
+                }
+
                 RefreshBubbles();
                 StartCoroutine(SetObjAndSpeech(objectiveText, speechText));
             }
@@ -76,6 +101,7 @@ public class SecondObjAndSpeechController : MonoBehaviour
     {
         if(enemyManager!=null) allScorpionDead = true;
         if(enemyHealth!=null) isSewer = true;
+        if (EnemyHealth.isBossDead) isBossRoom = true;
         SetObjective(objMessage);
         SetSpeech(speechMessage);
         yield return new WaitForSeconds(2f);
@@ -121,22 +147,21 @@ public class SecondObjAndSpeechController : MonoBehaviour
         }
     }
 
-    void ChooseTexts(int index)
+    void ChooseTexts(int objectiveIndex,int speechIndex)
     {
 
         objectiveTexts = Resources.Load<TextAsset>("SecondPopUpsInARoom/SecondObjectiveTexts");
         string[] objectSorok = objectiveTexts.text.Split('\n');
-        objectiveText = objectSorok[index].Trim();
+        objectiveText = objectSorok[objectiveIndex].Trim();
 
         speechTexts = Resources.Load<TextAsset>("SecondPopUpsInARoom/SecondSpeechTexts");
         string[] speechSorok = speechTexts.text.Split('\n');
-        speechText = speechSorok[index].Trim();
+        speechText = speechSorok[speechIndex].Trim();
 
-        Debug.Log($"secondtextIndex: {index}");
         Debug.Log($"secondObjectiveText: {objectiveText}");
         Debug.Log($"secondSpeechText: {speechText}");
     }
-
+    
     public void ClearAllBubbles()
     {
         if (activeBubble != null)
@@ -162,7 +187,7 @@ public class SecondObjAndSpeechController : MonoBehaviour
     {
         Debug.Log($"RefreshBubbles called for textIndex: {PopUpCounter.Instance.secondTextIndex}");
 
-        ChooseTexts(PopUpCounter.Instance.secondTextIndex);
+        ChooseTexts(objIndex,speechIndex);
         ClearAllBubbles();
     }
 }

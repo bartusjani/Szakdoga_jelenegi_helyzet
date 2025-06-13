@@ -37,6 +37,11 @@ public class Movement : MonoBehaviour
     float runStamina = 10f;
     float dashStamina = 20f;
 
+    private void Awake()
+    {
+        Time.timeScale = 1f;
+        EnemyHealth.isBossDead = false;
+    }
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();

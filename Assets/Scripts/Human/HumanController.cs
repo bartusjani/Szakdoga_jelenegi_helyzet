@@ -25,6 +25,14 @@ public class HumanController : MonoBehaviour
         Debug.Log(totalHumans);
         EnemyHealth.OnAnyEnemyDeath += OnEnemyDeath;
     }
+    private void Update()
+    {
+        if (totalHumans == 0 && !allDead )
+        {
+            totalHumans = GameObject.FindGameObjectsWithTag("Human").Length;
+            Debug.Log("Total Humans: " + totalHumans);
+        }
+    }
 
     private void OnEnemyDeath()
     {
@@ -32,6 +40,7 @@ public class HumanController : MonoBehaviour
 
         if (deadHumans >= totalHumans)
         {
+            allDead = true;
             adder.AddItemToInv(inv, itemIcon, title, desc);
             enemyMusic.SetActive(false);
             secondMusic.SetActive(true);

@@ -1,8 +1,9 @@
 0
 1
 2
-3
+New Diary Note. Press I to see Diary in Inventory.
 Need another Route.
-
-
-
+aaa
+aaaa
+aaaaa
+aaaaaa

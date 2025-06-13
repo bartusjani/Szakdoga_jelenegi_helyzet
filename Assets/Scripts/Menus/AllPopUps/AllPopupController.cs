@@ -40,6 +40,12 @@ public class AllPopupController : MonoBehaviour
     public bool wasSpeaking = false;
     public bool isRoom = false;
     public bool isSewer = false;
+    public bool isLibrary = false;
+
+    public int popUpIndex;
+    public int objectiveIndex;
+    public int speechIndex;
+
 
     private void Update()
     {
@@ -61,7 +67,7 @@ public class AllPopupController : MonoBehaviour
                 isPlayerInTrigger = true;
                 if (!wasSpeaking)
                 {
-                    ChooseTexts(PopUpCounter.Instance.textIndex);
+                    ChooseTexts(objectiveIndex,speechIndex,popUpIndex);
                     StartCoroutine(SetPopUp(popUpText,objectiveText, speechText));
                     if (wp != null) wp.SetTarget(target);
                 }
@@ -69,7 +75,7 @@ public class AllPopupController : MonoBehaviour
                 {
                     if (activeBubble == null && objActiveBubble == null)
                     {
-                        ChooseTexts(PopUpCounter.Instance.textIndex);
+                        ChooseTexts(objectiveIndex, speechIndex, popUpIndex);
                         if (objCounter == 1)
                         {
                             SetPopUp(popUpText);
@@ -85,8 +91,10 @@ public class AllPopupController : MonoBehaviour
             }
         }
 
+        
         if (isSewer)
         {
+            ChooseTexts(objectiveIndex, speechIndex, popUpIndex);
             StartCoroutine(SetObj(objectiveText));
         }
         else if (collision.CompareTag("Player"))
@@ -97,16 +105,21 @@ public class AllPopupController : MonoBehaviour
             {
                 StartCoroutine(SetObj(objectiveText));
             }
+            if (isLibrary)
+            {
+                ChooseTexts(objectiveIndex, speechIndex, popUpIndex);
+                StartCoroutine(SetPopUp(popUpText, objectiveText, speechText));
+            }
             if (!wasSpeaking)
             {
                 if (isRoom)
                 {
-                    ChooseTexts(PopUpCounter.Instance.textIndex);
+                    ChooseTexts(objectiveIndex, speechIndex);
                     StartCoroutine(SetPopUp(speechText,objectiveText));
                 }
                 else
                 {
-                    ChooseTexts(PopUpCounter.Instance.textIndex);
+                    ChooseTexts(objectiveIndex, speechIndex, popUpIndex);
                     StartCoroutine(SetPopUp(popUpText, objectiveText, speechText));
                 }
             }
@@ -114,7 +127,7 @@ public class AllPopupController : MonoBehaviour
             {
                 if (activeBubble == null && objActiveBubble == null)
                 {
-                    ChooseTexts(PopUpCounter.Instance.textIndex);
+                    ChooseTexts(objectiveIndex, speechIndex, popUpIndex);
                     StartCoroutine(SetPopUp(popUpText, objectiveText));
                 }
             }
@@ -221,24 +234,38 @@ public class AllPopupController : MonoBehaviour
         }
     }
 
-    void ChooseTexts(int index)
+    void ChooseTexts(int objIndex, int speechIndex, int popUpindex)
     {
 
         objectiveTexts = Resources.Load<TextAsset>("ObjectiveTexts");
         string[] objectSorok = objectiveTexts.text.Split('\n');
-        objectiveText = objectSorok[index].Trim();
+        objectiveText = objectSorok[objIndex].Trim();
 
         speechTexts = Resources.Load<TextAsset>("SpeechTexts");
         string[] speechSorok = speechTexts.text.Split('\n');
-        speechText = speechSorok[index].Trim();
+        speechText = speechSorok[speechIndex].Trim();
 
         popUpTexts = Resources.Load<TextAsset>("PopUpTexts");
         string[] popUpSorok = popUpTexts.text.Split('\n');
-        popUpText = popUpSorok[index].Trim();
+        popUpText = popUpSorok[popUpindex].Trim();
 
 
-        Debug.Log($"textIndex: {index}");
+        //Debug.Log($"textIndex: {index}");
         Debug.Log($"PopUpText: {popUpText}");
+        Debug.Log($"ObjectiveText: {objectiveText}");
+        Debug.Log($"SpeechText: {speechText}");
+    }
+    void ChooseTexts(int objIndex, int speechIndex)
+    {
+
+        objectiveTexts = Resources.Load<TextAsset>("ObjectiveTexts");
+        string[] objectSorok = objectiveTexts.text.Split('\n');
+        objectiveText = objectSorok[objIndex].Trim();
+
+        speechTexts = Resources.Load<TextAsset>("SpeechTexts");
+        string[] speechSorok = speechTexts.text.Split('\n');
+        speechText = speechSorok[speechIndex].Trim();
+
         Debug.Log($"ObjectiveText: {objectiveText}");
         Debug.Log($"SpeechText: {speechText}");
     }
@@ -268,7 +295,7 @@ public class AllPopupController : MonoBehaviour
     {
         Debug.Log($"RefreshBubbles called for textIndex: {PopUpCounter.Instance.textIndex}");
 
-        ChooseTexts(PopUpCounter.Instance.textIndex);
+        ChooseTexts(objectiveIndex, speechIndex, popUpIndex);
         ClearAllBubbles();
     }
 }

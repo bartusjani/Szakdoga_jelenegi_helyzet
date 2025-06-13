@@ -5,9 +5,9 @@ Find the next door.
 Find the sewer entrance.
 4
 Find exit.
-6
-7
-8 
+6aaaaaaaaaa
+7aaaaaaa
+8aaaa 
 9
 10
 11

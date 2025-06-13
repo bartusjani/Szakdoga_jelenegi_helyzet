@@ -12,6 +12,7 @@ public class StaticEnemyPlaceChange : MonoBehaviour
 
     public EnemyHealth enemyHealth;
     public EnemyHpBar enemyHpBar;
+    public GameObject tpTrigger;
 
     [SerializeField] private AudioClip[] moveClips;
     [SerializeField] GameObject enemyMusic;
@@ -47,6 +48,7 @@ public class StaticEnemyPlaceChange : MonoBehaviour
         animator.SetTrigger("isDead");
         enemyMusic.SetActive(false);
         backgroundMusic.SetActive(true);
+        tpTrigger.SetActive(true);
         yield return new WaitForSeconds(1.3f);
         
     }

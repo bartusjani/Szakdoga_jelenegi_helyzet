@@ -8,7 +8,7 @@ public class FightMusicOff : MonoBehaviour
 
     private bool wasBossDead = false;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerExit2D(Collider2D collision)
     {
         enemyMusic.SetActive(false);
         backgroundMusic.SetActive(true);

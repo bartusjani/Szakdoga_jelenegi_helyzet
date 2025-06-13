@@ -29,6 +29,7 @@ public class RoomTP : MonoBehaviour
     public Trigger tr;
 
     bool wasCountAdded = false;
+    public bool sewerDoor = false;
     public GameObject secondDoor;
     public GameObject firstDoor;
 
@@ -109,7 +110,7 @@ public class RoomTP : MonoBehaviour
             isFading = false;
             interactText.SetActive(false);
             faderImage.gameObject.SetActive(false);
-            if (secondDoor!=null)
+            if (secondDoor!=null && !sewerDoor)
             {
                 hasToTurnOff = true;
             }

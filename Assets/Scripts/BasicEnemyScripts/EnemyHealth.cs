@@ -35,6 +35,10 @@ public class EnemyHealth : MonoBehaviour
         get { return health; }
         set { health = value; }
     }
+    public bool GetBossDeath()
+    {
+        return isBossDead;
+    }
 
     void Start()
     {

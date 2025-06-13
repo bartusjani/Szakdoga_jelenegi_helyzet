@@ -15,7 +15,6 @@ public class ControllerPopUpBubble : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            
             isPlayerInTrigger = true;
             SetPopUp(message);
         }

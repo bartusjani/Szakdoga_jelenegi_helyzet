@@ -45,6 +45,10 @@ public class AllSecondPopupController : MonoBehaviour
     public WayPointUI wp;
     public Transform groundDoorTarget;
 
+    public int popUpIndex;
+    public int objIndex;
+    public int speechIndex;
+
     private void Update()
     {
         if (PopUpCounter.Instance.secondTextIndex != PopUpCounter.Instance.secondLastTextIndex)
@@ -66,14 +70,14 @@ public class AllSecondPopupController : MonoBehaviour
                 isPlayerInTrigger = true;
                 if (!wasSpeaking)
                 {
-                    ChooseTexts(PopUpCounter.Instance.secondTextIndex);
+                    ChooseTexts(objIndex,speechIndex,popUpIndex);
                     StartCoroutine(SetPopUp(popUpText,objectiveText, speechText));
                 }
                 else
                 {
                     if (activeBubble == null && objActiveBubble == null)
                     {
-                        ChooseTexts(PopUpCounter.Instance.secondTextIndex);
+                        ChooseTexts(objIndex, speechIndex, popUpIndex);
                         if (objCounter == 1)
                         {
                             SetPopUp(popUpText);
@@ -97,15 +101,15 @@ public class AllSecondPopupController : MonoBehaviour
             {
                 wp.SetTarget(groundDoorTarget);
                 isWaypointPointed = true;
-                ChooseTexts(PopUpCounter.Instance.secondTextIndex);
+                ChooseTexts(objIndex, speechIndex, popUpIndex);
                 StartCoroutine(SetPopUp(popUpText, objectiveText, speechText));
             }
             else
             {
                 if (activeBubble == null && objActiveBubble == null)
                 {
-
-                    ChooseTexts(PopUpCounter.Instance.secondTextIndex);
+                    
+                    ChooseTexts(objIndex, speechIndex, popUpIndex);
                     StartCoroutine(SetPopUp(popUpText, objectiveText));
                 }
             }
@@ -205,23 +209,22 @@ public class AllSecondPopupController : MonoBehaviour
         }
     }
 
-    void ChooseTexts(int index)
+    void ChooseTexts(int objIndex, int speechIndex, int popupIndex)
     {
 
         objectiveTexts = Resources.Load<TextAsset>("SecondPopUpsInARoom/SecondObjectiveTexts");
         string[] objectSorok = objectiveTexts.text.Split('\n');
-        objectiveText = objectSorok[index].Trim();
+        objectiveText = objectSorok[objIndex].Trim();
 
         speechTexts = Resources.Load<TextAsset>("SecondPopUpsInARoom/SecondSpeechTexts");
         string[] speechSorok = speechTexts.text.Split('\n');
-        speechText = speechSorok[index].Trim();
+        speechText = speechSorok[speechIndex].Trim();
 
         popUpTexts = Resources.Load<TextAsset>("SecondPopUpsInARoom/SecondPopUpTexts");
         string[] popUpSorok = popUpTexts.text.Split('\n');
-        popUpText = popUpSorok[index].Trim();
+        popUpText = popUpSorok[popupIndex].Trim();
 
 
-        Debug.Log($"secondtextIndex: {index}");
         Debug.Log($"secondPopUpText: {popUpText}");
         Debug.Log($"secondObjectiveText: {objectiveText}");
         Debug.Log($"secondSpeechText: {speechText}");
@@ -252,7 +255,7 @@ public class AllSecondPopupController : MonoBehaviour
     {
         Debug.Log($"RefreshBubbles called for textIndex: {PopUpCounter.Instance.secondTextIndex}");
 
-        ChooseTexts(PopUpCounter.Instance.secondTextIndex);
+        ChooseTexts(objIndex, speechIndex, popUpIndex);
         ClearAllBubbles();
     }
 }

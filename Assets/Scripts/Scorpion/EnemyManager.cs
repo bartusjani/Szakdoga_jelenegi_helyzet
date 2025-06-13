@@ -14,10 +14,19 @@ public class GroundDoorTrigger : MonoBehaviour
     private void Start()
     {
         allScorpions = GameObject.FindGameObjectsWithTag("Scorpion").Length;
-        //Debug.Log("Scorpions:" + allScorpions);
+        Debug.Log("Scorpions:" + allScorpions);
 
         EnemyHealth.OnAnyEnemyDeath += EnemyDeathHandler;
 
+    }
+
+    private void Update()
+    {
+        if (allScorpions == 0 && !allDead)
+        {
+            allScorpions = GameObject.FindGameObjectsWithTag("Scorpion").Length;
+            //Debug.Log("Scorpions:" + allScorpions);
+        }
     }
 
     private void EnemyDeathHandler()

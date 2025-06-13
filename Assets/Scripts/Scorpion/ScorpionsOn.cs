@@ -6,14 +6,20 @@ public class ScorpionsOn : MonoBehaviour
     [SerializeField] GameObject enemy2;
     [SerializeField] GameObject script;
 
+    private bool hasActivated = false;
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        enemy1.SetActive(true);
-        enemy2.SetActive(true);
+        if (!hasActivated)
+        {
+            hasActivated = true;
+            enemy1.SetActive(true);
+            enemy2.SetActive(true);
         
-        script.SetActive(true);
-        this.enabled = false;
+            script.SetActive(true);
+            this.enabled = false;
+
+        }
 
     }
 }
