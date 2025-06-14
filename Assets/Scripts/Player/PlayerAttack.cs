@@ -57,7 +57,7 @@ public class PlayerAttack : MonoBehaviour
             else if (Input.GetKeyDown(KeyCode.Mouse0) && !movement.IsGrounded())
             {
                 StartCoroutine(JumpAttack());
-                attackTime = Time.time + 0.5f / attackRate;
+                attackTime = Time.time + 0.2f / attackRate;
             }
             if (Input.GetMouseButtonDown(0) && movement.IsGrounded())
             {
@@ -73,7 +73,7 @@ public class PlayerAttack : MonoBehaviour
                 if (heldTime >= holdThreshold)
                 {
                     StartCoroutine(StrongAttack());
-                    attackTime = Time.time + 1.5f / attackRate;
+                    attackTime = Time.time + 0.5f / attackRate;
                     strongAttackStarted = true;
                 }
             }
@@ -100,7 +100,7 @@ public class PlayerAttack : MonoBehaviour
             else if (Input.GetKeyDown(KeyCode.Mouse1) && movement.IsGrounded())
             {
                 StartCoroutine(AreaAttack());
-                attackTime = Time.time + 0.5f / attackRate;
+                attackTime = Time.time + 0.2f / attackRate;
                 
             }
 
@@ -135,7 +135,7 @@ public class PlayerAttack : MonoBehaviour
         }
 
         LastAttackTime = Time.time;
-        attackTime = Time.time + 0.5f / attackRate;
+        attackTime = Time.time + 0.2f / attackRate;
     }
 
     private void OnDrawGizmosSelected()
@@ -179,7 +179,7 @@ public class PlayerAttack : MonoBehaviour
 
         DealDamage(attackPoint, attackRange, damage);
 
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.1f);
         isAttacking = false;
     }
 
@@ -195,7 +195,7 @@ public class PlayerAttack : MonoBehaviour
 
         DealDamage(attackPoint, attackRange, strongDamage);
 
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
         isAttacking = false;
     }
     IEnumerator QuickAttackCombo()
@@ -210,7 +210,7 @@ public class PlayerAttack : MonoBehaviour
 
         DealDamage(attackPoint, attackRange, damage + damage);
 
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
         isAttacking = false;
     }
     IEnumerator JumpAttack()
@@ -223,7 +223,7 @@ public class PlayerAttack : MonoBehaviour
         yield return new WaitForSeconds(1f);
         DealDamage(jumpAttackPoint, attackRange, damage);
 
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
         isAttacking = false;
     }
     IEnumerator AreaAttack()
@@ -239,7 +239,7 @@ public class PlayerAttack : MonoBehaviour
 
         DealDamage(areaAttackPoint, areaAttackRange, areaDamage);
 
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
         isAttacking = false;
 
 

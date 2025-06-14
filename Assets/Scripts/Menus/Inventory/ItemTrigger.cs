@@ -19,9 +19,10 @@ public class ItemTrigger : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && isPlayerInTrigger)
         {
-            if (playerInvPage != null)
+            if (playerInvPage != null && !isItemAdded)
             {
                 AddItemToInv(playerInvPage, itemIcon, title, desc);
+                isItemAdded = true;
             }
             else
             {
